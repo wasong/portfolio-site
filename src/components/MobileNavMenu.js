@@ -1,3 +1,5 @@
+import React from 'react';
+
 function MobileNavMenu({showHideNav}) {
 
   function closeNavMenu(e){
@@ -10,7 +12,8 @@ function MobileNavMenu({showHideNav}) {
 
   return (
     <>
-      <nav className="mobile-nav text-center" >
+    <div className="mobile-nav-overlay absolute h-screen w-screen z-10 top-0" onClick={showHideNav}></div>
+      <nav className="mobile-nav text-center z-20" >
         <ul >
           <li>Home</li>
           <li>About</li>

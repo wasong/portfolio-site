@@ -9,6 +9,7 @@ const [navOpen, setNavOpen] = useState(false);
     setNavOpen(!navOpen);
   }
 
+
 return (
   <header className={navOpen ? 'show' : undefined} id="page-header">
     <div>  
