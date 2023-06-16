@@ -14,7 +14,8 @@ function MobileNavMenu({showHideNav}) {
         <ul >
           <li>Home</li>
           <li>About</li>
-          <li>Favourites</li>
+          <li>Projects</li>
+          <li>Contact</li>
         </ul>
       </nav>
     </>
