@@ -16,7 +16,7 @@ return (
       <img src={logo} alt="logo" className="w-10 h-auto m-2 absolute top-0 left-0"></img>
     </span>
       <button
-        className="hamburger-btn absolute bottom-2 right-0 z-999"
+        className="hamburger-btn absolute bottom-2 right-0 z-[9999]"
         onMouseDown={(e) => {
           e.preventDefault();
         }}
