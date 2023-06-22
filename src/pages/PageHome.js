@@ -1,9 +1,7 @@
 import MobileNavMenu from "../components/MobileNavMenu";
 import React from "react";
-// import TypingEffect from "../features/typeEffect";
 import HamburgerMenu from "../components/HamburgerMenu";
-// import ImageCarousel from "../features/imageCarousel";
-
+import Projects from "../components/Projects";
 
 function PageHome () {
     
@@ -22,7 +20,10 @@ function PageHome () {
                     <h2 className="typed-text text-center">My name is Brice.</h2>  
                     </div>
                 </section>
+
+                <Projects/>
             </main> 
+        
     )
 }
 

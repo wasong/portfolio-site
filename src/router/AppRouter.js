@@ -16,7 +16,7 @@ function AppRouter() {
 
             <Routes>
                 <Route path="/" element={<PageHome />} />
-                <Route path="*" element={<PageNotFound />} />
+                {/* <Route path="*" element={<PageNotFound />} /> */}
             </Routes> 
         <Footer />
     </BrowserRouter>
