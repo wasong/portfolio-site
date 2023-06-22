@@ -1,35 +1,35 @@
-import React, { useState, useEffect } from 'react';
+// import React, { useState, useEffect } from 'react';
 
-const TypingEffect = ({ text, delay }) => {
-  const [displayText, setDisplayText] = useState('');
+// const TypingEffect = ({ text, delay }) => {
+//   const [displayText, setDisplayText] = useState('');
 
-  useEffect(() => {
-    let currentIndex = 0;
-    let timeoutId;
+//   useEffect(() => {
+//     let currentIndex = 0;
+//     let timeoutId;
 
-    const typeText = () => {
-      clearTimeout(timeoutId);
-      console.log(currentIndex)
-      if (currentIndex < text.length - 1) {
-        setDisplayText(prevText => prevText + text[currentIndex]);
-        currentIndex++;
-        timeoutId = setTimeout(typeText, 100);
-      }
-    };
+//     const typeText = () => {
+//       clearTimeout(timeoutId);
+//       console.log(currentIndex)
+//       if (currentIndex < text.length - 1) {
+//         setDisplayText(prevText => prevText + text[currentIndex]);
+//         currentIndex++;
+//         timeoutId = setTimeout(typeText, 100);
+//       }
+//     };
 
-     const startTyping = () => {
-      timeoutId = setTimeout(typeText, delay);
-    };
+//      const startTyping = () => {
+//       timeoutId = setTimeout(typeText, delay);
+//     };
 
-    startTyping();
+//     startTyping();
 
 
-    return () => {
-      clearTimeout(timeoutId);
-    };
-  }, [text, delay]);
+//     return () => {
+//       clearTimeout(timeoutId);
+//     };
+//   }, [text, delay]);
 
-  return <span>{displayText}</span>;
-};
+//   return <span>{displayText}</span>;
+// };
 
-export default TypingEffect;
+// export default TypingEffect;

@@ -1,8 +1,8 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import logo from '../images/portfolio-logo.png';
 import MobileNavMenu from './MobileNavMenu';
 
-function Header() {
+function HamburgerMenu() {
 const [navOpen, setNavOpen] = useState(false);
 
   function showHideNav() {
@@ -30,10 +30,10 @@ return (
         </span>
         <span className="sr-only">Menu</span>
       </button>
-      <MobileNavMenu showHideNav={showHideNav} />
+      <MobileNavMenu showHideNav={showHideNav} navOpen={navOpen} />
     </div>
   </header>
 );
 }
 
-export default Header;
+export default HamburgerMenu;
