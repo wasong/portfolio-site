@@ -7,8 +7,9 @@ function Projects() {
  const project= portfolio.projects;
 
   return (
-    <div>
+    <section className="projects">
       {project.map((project) => (
+        <div className={project.class}>
         <div key={project.title}>
           <h2>{project.title}</h2>
           <p>{project.description}</p>
@@ -20,8 +21,9 @@ function Projects() {
           </ul>
           <a href={project.url}>Visit Project</a>
         </div>
+        </div>
       ))}
-    </div>
+    </section>
   );
 }
 

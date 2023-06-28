@@ -5,8 +5,8 @@ import MobileNavMenu from './MobileNavMenu';
 function HamburgerMenu() {
 const [navOpen, setNavOpen] = useState(false);
 
-  function showHideNav() {
-    setNavOpen(!navOpen);
+  function showHideNav(isOpen) {
+    setNavOpen(isOpen);
   }
 
 
@@ -17,11 +17,13 @@ return (
       <img src={logo} alt="logo" className="w-10 h-auto m-2 absolute top-0 left-0"></img>
     </span>
       <button
-        className="hamburger-btn absolute bottom-2 right-0 z-[9999]"
+        className="hamburger-btn fixed bottom-2 right-0 z-[9999]"
         onMouseDown={(e) => {
           e.preventDefault();
         }}
-        onClick={showHideNav}
+        onClick={() => {
+          showHideNav(!navOpen);
+        }}
       >
         <span className="hamburger-icon">
           <span className="line"></span>

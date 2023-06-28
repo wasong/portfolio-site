@@ -5,21 +5,24 @@
       "description": "This is the first project I worked on. It involved developing a web application using HTML, CSS, and JavaScript.",
       "image": "project1.jpg",
       "technologies": ["HTML", "CSS", "JavaScript"],
-      "url": "https://example.com/project1"
+      "url": "https://example.com/project1",
+      "class": "project1"
     },
     {
       "title": "Project 2",
       "description": "In this project, I created a mobile application using React Native framework. The app was designed to help users track their fitness activities.",
       "image": "project2.jpg",
       "technologies": ["React Native", "JavaScript"],
-      "url": "https://example.com/project2"
+      "url": "https://example.com/project2",
+      "class": "project2"
     },
     {
       "title": "Project 3",
       "description": "For this project, I collaborated with a team to build a database-driven web application using Django framework. It allowed users to create and manage their personal tasks.",
       "image": "project3.jpg",
       "technologies": ["Python", "Django", "HTML", "CSS"],
-      "url": "https://example.com/project3"
+      "url": "https://example.com/project3",
+      "class": "project3"
     }
   ]
 }
