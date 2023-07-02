@@ -4,27 +4,27 @@ import React, { useState, useEffect}  from 'react';
 function MobileNavMenu({showHideNav, navOpen}) {
 // const [isSmallScreen, setIsSmallScreen] = useState(false);
 
-  useEffect(() => {
-    const mediaQuery = window.matchMedia('(max-width: 768px)'); // Define your media query here
+  // useEffect(() => {
+  //   const mediaQuery = window.matchMedia('(max-width: 768px)'); // Define your media query here
 
-    const handleResize = (event) => {
-      // setIsSmallScreen(event.matches);
-      if (event.matches) {
-        showHideNav(false)
-      }
-    };
+    // const handleResize = (event) => {
+    //   // setIsSmallScreen(event.matches);
+    //   if (event.matches) {
+    //     showHideNav(false)
+    //   }
+    // };
 
     // Initial check for the media query
-    handleResize(mediaQuery);
+  //   handleResize(mediaQuery);
 
-    // Add listener for changes in the media query
-    mediaQuery.addEventListener('change', handleResize);
+  //   // Add listener for changes in the media query
+  //   mediaQuery.addEventListener('change', handleResize);
 
-    // Clean up the listener on component unmount
-    return () => {
-      mediaQuery.removeEventListener('change', handleResize);
-    };
-  }, [showHideNav]);
+  //   // Clean up the listener on component unmount
+  //   return () => {
+  //     mediaQuery.removeEventListener('change', handleResize);
+  //   };
+  // }, [showHideNav]);
 
   return (
     <>
