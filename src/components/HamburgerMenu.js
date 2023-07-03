@@ -14,7 +14,9 @@ return (
   <header className={navOpen ? 'show' : undefined} id="page-header">
     <div>  
       <span>
-      <img src={logo} alt="logo" className="w-10 h-auto m-2 fixed top-0 left-0"></img>
+      <a href= "/">
+        <img src={logo} alt="logo" className="w-10 h-auto m-2 fixed top-0 left-0"></img>
+      </a>
     </span>
       <button
         className="hamburger-btn fixed bottom-2 right-0 z-[9999]"

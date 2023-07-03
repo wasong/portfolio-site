@@ -35,9 +35,12 @@ function PageHome () {
                 </header>
 
                 <section className= "welcome h-[100vh]">
-                    <h1 className="text-center mx-auto mt-32" >Hey,</h1>
-                        <div className="typing-container">
-                            <h2 className="typed-text text-center">My name is Brice.</h2>  
+                    <h1 className="text-center mx-auto mt-32 text-3xl" >Hey,</h1>
+                        <div className="typing-container" >
+                            <h2 className="typed-text text-center text-3xl">
+  My name is <span style={{ fontWeight: 'bold', fontSize: '2.5rem'}}>Brice</span>.
+</h2>
+
                         </div>
                 </section>
                 <div className="bottomthing">
