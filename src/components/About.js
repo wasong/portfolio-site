@@ -7,6 +7,7 @@ return (
     <section id="about">
     <div className="about">
         <h1  className= "text-center text-xl"> About Me</h1>
+        <img src="https://placehold.co/250x400" alt="Brice Chen" className="mx-auto" />
         <p className= "my-4 mx-8"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, sit. Alias quibusdam quam voluptatibus omnis illo numquam ab cupiditate possimus sapiente pariatur, consectetur, ea voluptate in dolor! Libero, ipsa dignissimos.</p>
     </div>
    </section>
