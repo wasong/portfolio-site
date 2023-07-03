@@ -6,7 +6,7 @@ function Projects() {
  const project= portfolio.projects;
 
   return (
-    <section className="projects">
+    <section id="projects" className="mx-4 my-4">
       {project.map((project) => (
         <div className={project.class} key={project.title}>
           <h2>{project.title}</h2>

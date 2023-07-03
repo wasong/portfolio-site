@@ -15,7 +15,7 @@ return (
     <div>  
       <span>
       <a href= "/">
-        <img src={logo} alt="logo" className="w-10 h-auto m-2 fixed top-0 left-0"></img>
+        <img src={logo} alt="logo" className="w-10 h-auto m-2 absolute top-0 left-0"></img>
       </a>
     </span>
       <button

@@ -2,6 +2,7 @@ import MobileNavMenu from "../components/MobileNavMenu";
 import React, {useEffect, useState} from "react";
 import HamburgerMenu from "../components/HamburgerMenu";
 import Projects from "../components/Projects";
+import About from "../components/About";
 
 function PageHome () {
     
@@ -46,12 +47,14 @@ function PageHome () {
                 <div className="bottomthing">
                 <div className={`fade-out ${isVisible ? '' : 'hidden'}`}>
                 <div className="arrowcontainer h-16 flex justify-center items-center flex-col ">
-                    <div className="arr down"><div></div></div>
+                    <div className="arr down">
+                      <a href="/#about"><div></div></a>
+                    </div>
                 </div>
                 </div>
                 </div>
-             
-                {/* <Projects/> */}
+              <About/>
+                <Projects/>
             </main> 
         
     )
