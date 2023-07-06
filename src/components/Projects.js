@@ -1,6 +1,6 @@
 import React from 'react';
 import portfolio from '../json/portfolio.json';
-
+import MoreInfoButton from './MoreInfoButton';
 
 function Projects() {
  const project= portfolio.projects;
@@ -17,7 +17,7 @@ function Projects() {
               <li key={technology}>{technology}</li>
             ))}
           </ul>
-          <a href={project.url}>Visit Project</a>
+          <MoreInfoButton project= {project}/>
         </div>
       ))}
     </section>

@@ -1,9 +1,7 @@
-import MobileNavMenu from "../components/MobileNavMenu";
 import React, {useEffect, useState} from "react";
-import HamburgerMenu from "../components/HamburgerMenu";
 import Projects from "../components/Projects";
 import About from "../components/About";
-import Carousel from "../features/Carousel";
+import Carousel from "../features/carousel";
 
 function PageHome () {
     
@@ -35,11 +33,6 @@ function PageHome () {
 
     return (
             <main>
-                <header>
-                    <MobileNavMenu/>
-                    <HamburgerMenu/>
-                </header>
-
                 <section className= "welcome h-[100vh]">
                     <h1 className="text-center mx-auto mt-32 text-3xl" >Hey,</h1>
                         <div className="typing-container" >
