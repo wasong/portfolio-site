@@ -3,6 +3,7 @@ import React, {useEffect, useState} from "react";
 import HamburgerMenu from "../components/HamburgerMenu";
 import Projects from "../components/Projects";
 import About from "../components/About";
+import Carousel from "../features/Carousel";
 
 function PageHome () {
     
@@ -26,7 +27,11 @@ function PageHome () {
     };
   }, []);
 
-
+  const slides = [
+    "https://i.imgur.com/Cf1NIU5.png",
+    "https://imgur.com/a/vxBkaeT",
+    "https://i.imgur.com/image3.jpg"
+  ]
 
     return (
             <main>
@@ -54,6 +59,7 @@ function PageHome () {
                 </div>
                 </div>
               <About/>
+              <Carousel slides={slides}/>
                 <Projects/>
             </main> 
         
