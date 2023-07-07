@@ -15,14 +15,7 @@ useEffect(() => {
 
 const project = portfolio.projects.find(project => project.id === id);
 
-  if (!project) {
-    // Handle case when project is not found
-    return <div>Project not found</div>;
-  }
-
-    
-
-  // Use the value of the "id" URL parameter
+     
   return(
     <main>
       {project ? (
