@@ -1,7 +1,9 @@
 import React, {useEffect, useState} from "react";
+import Carousel from "../features/carousel";
 import Projects from "../components/Projects";
 import About from "../components/About";
-import Carousel from "../features/carousel";
+import DesktopNavMenu from "../components/DesktopNavMenu";
+
 
 function PageHome () {
     
@@ -27,13 +29,16 @@ function PageHome () {
 
   const slides = [
     "https://i.imgur.com/Cf1NIU5.png",
-    "https://imgur.com/a/vxBkaeT",
-    "https://i.imgur.com/image3.jpg"
+    "https://i.imgur.com/y57oi1j.jpg",
+    "https://i.imgur.com/TjQRsVY.png"
   ]
 
     return (
             <main>
-                <section className= "welcome h-[100vh]">
+              <nav>
+                <DesktopNavMenu />
+              </nav>
+                <section className= "welcome h-[100dvh]">
                     <h1 className="text-center mx-auto mt-32 text-3xl" >Hey,</h1>
                         <div className="typing-container" >
                             <h2 className="typed-text text-center text-3xl">
@@ -42,9 +47,9 @@ function PageHome () {
 
                         </div>
                 </section>
-                <div className="bottomthing">
+                <div className="downArrow">
                 <div className={`fade-out ${isVisible ? '' : 'hidden'}`}>
-                <div className="arrowcontainer h-16 flex justify-center items-center flex-col ">
+                <div className="arrowContainer h-16 flex justify-center items-center flex-col ">
                     <div className="arr down">
                       <a href="/#about"><div></div></a>
                     </div>

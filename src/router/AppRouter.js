@@ -17,11 +17,10 @@ import PageIndividualProj from '../pages/PageIndividualProj';
 function AppRouter() {
   return (
     <BrowserRouter  >
-      <div className="wrapper"></div>
       <header>
         <MobileNavMenu/>
         <HamburgerMenu/>
-                </header>
+      </header>
             <Routes>
                 <Route path="/" element={<PageHome />} />
                 <Route path="/projects/:id" element={<PageIndividualProj/>} />
