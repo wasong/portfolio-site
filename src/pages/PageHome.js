@@ -3,7 +3,7 @@ import Carousel from "../features/carousel";
 import Projects from "../components/Projects";
 import About from "../components/About";
 import DesktopNavMenu from "../components/DesktopNavMenu";
-
+import Logo from "../components/Logo";
 
 function PageHome () {
     
@@ -35,6 +35,7 @@ function PageHome () {
 
     return (
             <main>
+              <Logo />
             <DesktopNavMenu />
               <section className= "welcome h-[100dvh]">
                 <h1 className="text-center mx-auto mt-32 text-3xl" >Hey,</h1>

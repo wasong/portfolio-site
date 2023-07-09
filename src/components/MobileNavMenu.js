@@ -32,8 +32,8 @@ function MobileNavMenu({showHideNav, navOpen}) {
     <div className={navOpen ? "mobile-nav-overlay fixed h-screen w-screen z-10 top-0 ": "hidden"} onClick={() => {
       showHideNav(!navOpen)
     }}></div>
-      <nav className="mobile-nav text-center z-20 bg-white md:hidden">
-  <ul className="flex flex-col h-full justify-evenly md:hidden">
+      <nav className="mobile-nav text-center z-20 bg-white lg:hidden">
+  <ul className="flex flex-col h-full justify-evenly lg:hidden">
     {[
       { href: "/#home", icon: homeIconWhiteBg },
       { href: "/#about", icon: aboutMeIcon },
