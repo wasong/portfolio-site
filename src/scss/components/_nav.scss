@@ -36,7 +36,7 @@
         transform: rotate(45deg);
     }
 
-    @media (min-width: 50em) {
+    @media (min-width: 768px) {
         display: none;
     }
 }
@@ -70,7 +70,7 @@
         color: black;
     }
 
- @media (min-width: 50em) {
+ @media (min-width: 768px) {
         // display: flex;
         // align-items: center;
         // background-color: transparent;

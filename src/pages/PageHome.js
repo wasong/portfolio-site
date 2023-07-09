@@ -35,26 +35,21 @@ function PageHome () {
 
     return (
             <main>
-              <nav>
-                <DesktopNavMenu />
-              </nav>
-                <section className= "welcome h-[100dvh]">
-                    <h1 className="text-center mx-auto mt-32 text-3xl" >Hey,</h1>
-                        <div className="typing-container" >
-                            <h2 className="typed-text text-center text-3xl">
-  My name is <span style={{ fontWeight: 'bold', fontSize: '2.5rem'}}>Brice</span>.
-</h2>
-
-                        </div>
-                </section>
+            <DesktopNavMenu />
+              <section className= "welcome h-[100dvh]">
+                <h1 className="text-center mx-auto mt-32 text-3xl" >Hey,</h1>
+                  <div className="typing-container" >
+                    <h2 className="typed-text text-center text-3xl"> My name is <span style={{ fontWeight: 'bold', fontSize: '2.5rem'}}>Brice</span>.</h2>
+                  </div>
+              </section>
                 <div className="downArrow">
-                <div className={`fade-out ${isVisible ? '' : 'hidden'}`}>
-                <div className="arrowContainer h-16 flex justify-center items-center flex-col ">
-                    <div className="arr down">
-                      <a href="/#about"><div></div></a>
-                    </div>
-                </div>
-                </div>
+                  <div className={`fade-out ${isVisible ? '' : 'hidden'}`}>
+                  <div className="arrowContainer h-16 flex justify-center items-center flex-col ">
+                      <div className="arr down">
+                        <a href="/#about"><div></div></a>
+                      </div>
+                  </div>
+                  </div>
                 </div>
               <About/>
               <Carousel slides={slides}/>
