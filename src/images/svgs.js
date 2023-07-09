@@ -1,12 +1,12 @@
 export const whiteHouse = `<svg xmlns="http://www.w3.org/2000/svg" width="75" height="74" viewBox="0 0 75 74">
-  <g id="Ellipse_4" data-name="Ellipse 4" fill="#fff" stroke="#000" stroke-width="1">
+  <g id="Ellipse_4" data-name="Ellipse 4" fill="#fff" stroke="#000" strokeWidth="1">
     <ellipse cx="37.5" cy="37" rx="37.5" ry="37" stroke="none"/>
     <ellipse cx="37.5" cy="37" rx="37" ry="36.5" fill="none"/>
   </g>
 </svg>`
 
 export const blackHouse = `<svg id="homeIcon" xmlns="http://www.w3.org/2000/svg" width="75" height="74" viewBox="0 0 75 74">
-  <g id="Ellipse_4" data-name="Ellipse 4" stroke="#000" stroke-width="1">
+  <g id="Ellipse_4" data-name="Ellipse 4" stroke="#000" strokeWidth="1">
     <ellipse cx="37.5" cy="37" rx="37.5" ry="37" stroke="none"/>
     <ellipse cx="37.5" cy="37" rx="37" ry="36.5" fill="none"/>
   </g>
@@ -14,7 +14,7 @@ export const blackHouse = `<svg id="homeIcon" xmlns="http://www.w3.org/2000/svg"
 </svg>`
 
 export const whiteAbout = `<svg id="aboutMeIcon" xmlns="http://www.w3.org/2000/svg" width="75" height="74" viewBox="0 0 75 74">
-  <g id="Ellipse_1" data-name="Ellipse 1" fill="#fff" stroke="#000" stroke-width="1">
+  <g id="Ellipse_1" data-name="Ellipse 1" fill="#fff" stroke="#000" strokeWidth="1">
     <ellipse cx="37.5" cy="37" rx="37.5" ry="37" stroke="none"/>
     <ellipse cx="37.5" cy="37" rx="37" ry="36.5" fill="none"/>
   </g>
@@ -22,7 +22,7 @@ export const whiteAbout = `<svg id="aboutMeIcon" xmlns="http://www.w3.org/2000/s
 </svg>`
 
 export const blackAbout = `<svg id="aboutMeIcon" xmlns="http://www.w3.org/2000/svg" width="75" height="74" viewBox="0 0 75 74">
-  <g id="Ellipse_1" data-name="Ellipse 1" stroke="#000" stroke-width="1">
+  <g id="Ellipse_1" data-name="Ellipse 1" stroke="#000" strokeWidth="1">
     <ellipse cx="37.5" cy="37" rx="37.5" ry="37" stroke="none"/>
     <ellipse cx="37.5" cy="37" rx="37" ry="36.5" fill="none"/>
   </g>
@@ -30,7 +30,7 @@ export const blackAbout = `<svg id="aboutMeIcon" xmlns="http://www.w3.org/2000/s
 </svg>`
 
 export const whiteProjects = `<svg id="projectsIcon" xmlns="http://www.w3.org/2000/svg" width="75" height="75" viewBox="0 0 75 75">
-  <g id="Ellipse_2" data-name="Ellipse 2" fill="#fff" stroke="#000" stroke-width="1">
+  <g id="Ellipse_2" data-name="Ellipse 2" fill="#fff" stroke="#000" strokeWidth="1">
     <circle cx="37.5" cy="37.5" r="37.5" stroke="none"/>
     <circle cx="37.5" cy="37.5" r="37" fill="none"/>
   </g>
@@ -38,7 +38,7 @@ export const whiteProjects = `<svg id="projectsIcon" xmlns="http://www.w3.org/20
 </svg>`
 
 export const blackProjects = `<svg id="projectsIcon" xmlns="http://www.w3.org/2000/svg" width="75" height="75" viewBox="0 0 75 75">
-  <g id="Ellipse_2" data-name="Ellipse 2" stroke="#000" stroke-width="1">
+  <g id="Ellipse_2" data-name="Ellipse 2" stroke="#000" strokeWidth="1">
     <circle cx="37.5" cy="37.5" r="37.5" stroke="none"/>
     <circle cx="37.5" cy="37.5" r="37" fill="none"/>
   </g>
@@ -47,7 +47,7 @@ export const blackProjects = `<svg id="projectsIcon" xmlns="http://www.w3.org/20
 
 export const whiteContact = `<svg id="contactIcon" xmlns="http://www.w3.org/2000/svg" width="75" height="75" viewBox="0 0 75 75">
   <g id="Group_1" data-name="Group 1" transform="translate(-1544 -662)">
-    <g id="Ellipse_3" data-name="Ellipse 3" transform="translate(1544 662)" fill="#fff" stroke="#000" stroke-width="1">
+    <g id="Ellipse_3" data-name="Ellipse 3" transform="translate(1544 662)" fill="#fff" stroke="#000" strokeWidth="1">
       <circle cx="37.5" cy="37.5" r="37.5" stroke="none"/>
       <circle cx="37.5" cy="37.5" r="37" fill="none"/>
     </g>
@@ -57,7 +57,7 @@ export const whiteContact = `<svg id="contactIcon" xmlns="http://www.w3.org/2000
 
 export const blackContact = `<svg id="contactIcon" xmlns="http://www.w3.org/2000/svg" width="75" height="75" viewBox="0 0 75 75">
   <g id="Group_1" data-name="Group 1" transform="translate(-1544 -662)">
-    <g id="Ellipse_3" data-name="Ellipse 3" transform="translate(1544 662)" stroke="#000" stroke-width="1">
+    <g id="Ellipse_3" data-name="Ellipse 3" transform="translate(1544 662)" stroke="#000" strokeWidth="1">
       <circle cx="37.5" cy="37.5" r="37.5" stroke="none"/>
       <circle cx="37.5" cy="37.5" r="37" fill="none"/>
     </g>
