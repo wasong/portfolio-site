@@ -17,7 +17,7 @@ export default function Carousel({
     if (!autoSlide) return
     const slideInterval = setInterval(next, autoSlideInterval)
     return () => clearInterval(slideInterval)
-  }, [])
+  },)
 
   const slideElements = slides.map((slide, index) => (
     <img key={index} src={slide} alt={`Slide ${index}`} />
