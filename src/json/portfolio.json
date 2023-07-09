@@ -2,8 +2,8 @@
   "projects": [
     {
       "id": "project1",
-      "title": "Project 1",
-      "description": "This is the first project I worked on. It involved developing a web application using HTML, CSS, and JavaScript.",
+      "title": "Capstone Project",
+      "description": "",
       "image": "project1.jpg",
       "technologies": ["HTML", "CSS", "JavaScript"],
       "url": "https://example.com/project1",
@@ -12,13 +12,13 @@
     },
     {
       "id": "project2",
-      "title": "Project 2",
-      "description": "In this project, I created a mobile application using React Native framework. The app was designed to help users track their fitness activities.",
+      "title": "Movie Database",
+      "description": "A movie database project is a software application or website that allows users to browse and search for information about movies. It typically includes a database of movies with details such as titles, release dates, genres, cast and crew, ratings, and plot summaries. Users can interact with the database by searching for specific movies, exploring popular or trending films, reading reviews and ratings, and saving movies to a favourite's list. This project utilizes The Movie Database API to access all the information about movies.",
       "image": "project2.jpg",
-      "technologies": ["React Native", "JavaScript"],
-      "url": "https://example.com/project2",
+      "technologies": ["React Native", "JavaScript", "SASS"],
+      "url": "https://bricechen.ca/movie-database/",
       "class": "project2",
-      "github": "https://github.com/your-username/project2"
+      "github": "https://github.com/chencxw/movie-database"
     },
     {
       "id": "project3",

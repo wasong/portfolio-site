@@ -12,7 +12,7 @@ function Footer() {
 return(
 <footer>
         <section className="socials-icon-container w-full inline-flex justify-center">
-        <a href="/" className="mx-2 my-4">
+        <a href="https://github.com/bChen-95"  target="_blank" className="mx-2 my-4">
           <HovImage
             src={gitHubIcon}
             alt="Github Icon"
@@ -20,13 +20,13 @@ return(
           />
         </a>
 
-        <a href="/" className="mx-2 my-4">
+        {/* <a href="/" className="mx-2 my-4">
           <HovImage
             src={facebookIcon}
             alt="Facebook Icon"
             hoverSrc={facebookHov}
           />
-        </a>
+        </a> */}
 
         <a href="/" className="mx-2 my-4">
           <HovImage
