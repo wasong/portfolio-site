@@ -12,10 +12,10 @@ const [navOpen, setNavOpen] = useState(false);
 
 return (
   <header className={navOpen ? 'show' : undefined} id="page-header">
-    <div className="bg-white fixed bottom-0 w-[100vw] h-[60px] z-[500]">  
+    <div className="bg-white fixed bottom-0 w-[100vw] h-[60px] z-[500] md:hidden">  
       <span>
       <a href= "/">
-        <img src={logo} alt="logo" className="w-10 h-auto m-2 fixed bottom-0 left-0 z-[500] md:top-0"></img>
+        <img src={logo} alt="logo" className="w-10 h-auto m-2 fixed bottom-0 left-0 z-[500] md:top-0 md:absolute"></img>
       </a>
     </span>
       <button
