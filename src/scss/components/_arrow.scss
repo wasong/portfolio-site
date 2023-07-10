@@ -1,44 +1,49 @@
- .downArrow{
-    position: absolute;
-    bottom: -30px;
-    left: 0;
-    width: 100%;
-    z-index: 1;
- }
- .arr{
-    position: relative;
-    background: white;
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-    margin: 15px;
-    transition: 0.4s ease;
- }
+.downArrow {
+  position: absolute;
+  bottom: -30px;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
 
- .arr:hover {
-    box-shadow: 0px 0px 20px 20px rgba(0,0,0,0);
- }
+.arr {
+  position: relative;
+  background: white;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin: 15px;
+  transition: 0.4s ease;
+}
+
+.arr:hover {
+  box-shadow: 0px 0px 20px 20px rgba(0, 0, 0, 0);
+}
 
 .arr div {
-    position: absolute;
-    height: 20px;
-    width: 20px;
-    border-top: 3px solid black;
-    border-left: 3px solid black;
-    transform: rotate(45deg);
-    left: 27.5px;
-    top: 35px;
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  border-top: 3px solid black;
+  border-left: 3px solid black;
+  transform: rotate(45deg);
+  left: 27.5px;
+  top: 35px;
+  opacity: 0;
 }
 
 .down {
-    transform: rotate(180deg) !important;
+  transform: rotate(180deg) !important;
 }
 
 @keyframes fadeAnimation {
   0% {
     opacity: 0;
   }
-  50% {
+  30% {
+    opacity: 0;
+  }
+  80% {
     opacity: 1;
   }
   100% {
@@ -49,6 +54,6 @@
 .arr div {
   animation-name: fadeAnimation;
   animation-duration: 2s;
+  animation-delay: 2s;
   animation-iteration-count: infinite;
 }
-
