@@ -10,7 +10,7 @@ function Footer() {
 
    
 return(
-<footer className="pb-16">
+<footer id="contact" className="pb-16">
         <section className="socials-icon-container w-full inline-flex justify-center">
         <a href="https://github.com/bChen-95"  target="_blank" rel="noopener noreferrer" className="mx-2 my-4">
           <HovImage

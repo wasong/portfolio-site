@@ -7,11 +7,10 @@ const [navOpen, setNavOpen] = useState(false);
   function showHideNav(isOpen) {
     setNavOpen(isOpen);
   }
-
-
+  
 return (
   <header className={navOpen ? 'show' : undefined} id="page-header">
-    <div className="bg-white fixed bottom-0 w-[100vw] h-[60px] z-[500] lg:hidden">  
+    <div >  
       <button
         className="hamburger-btn fixed bottom-2 right-0 z-[9999]"
         onMouseDown={(e) => {

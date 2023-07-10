@@ -7,7 +7,7 @@ const homeIconWhiteBg = (
     width="75"
     height="74"
     viewBox="0 0 75 74"
-    className="mx-auto"
+    className="mx-auto  lg:my-4"
   >
     <g id="Ellipse_4" data-name="Ellipse 4" fill="#fff" stroke="#000" strokeWidth="1">
       <ellipse cx="37.5" cy="37" rx="37.5" ry="37" stroke="none" />
@@ -22,7 +22,15 @@ const homeIconWhiteBg = (
   </svg>
 );
 
-const aboutMeIcon = (<svg className="mx-auto" id="aboutMeIcon" xmlns="http://www.w3.org/2000/svg" width="75" height="74" viewBox="0 0 75 74">
+const aboutMeIcon = (
+<svg 
+className="mx-auto lg:my-4" 
+id="aboutMeIcon" 
+xmlns="http://www.w3.org/2000/svg" 
+width="75" 
+height="74" 
+viewBox="0 0 75 74"
+>
   <g id="Ellipse_1" data-name="Ellipse 1" fill="#fff" stroke="#000" strokeWidth="1">
     <ellipse cx="37.5" cy="37" rx="37.5" ry="37" stroke="none"/>
     <ellipse cx="37.5" cy="37" rx="37" ry="36.5" fill="none"/>
@@ -31,7 +39,13 @@ const aboutMeIcon = (<svg className="mx-auto" id="aboutMeIcon" xmlns="http://www
 </svg>
 )
 
-const projectsIcon = (<svg className="mx-auto" xmlns="http://www.w3.org/2000/svg" width="75" height="75" viewBox="0 0 75 75">
+const projectsIcon = (
+<svg 
+className="mx-auto lg:my-4" 
+xmlns="http://www.w3.org/2000/svg" 
+width="75" 
+height="75" 
+viewBox="0 0 75 75">
   <g id="icon" transform="translate(-123 -392)">
     <g id="Ellipse_2" data-name="Ellipse 2" transform="translate(123 392)" fill="#fff" stroke="#000" strokeWidth="1">
       <circle cx="37.5" cy="37.5" r="37.5" stroke="none"/>
@@ -42,7 +56,13 @@ const projectsIcon = (<svg className="mx-auto" xmlns="http://www.w3.org/2000/svg
 </svg>
 )
 
-const contactMeIcon = (<svg className="mx-auto" xmlns="http://www.w3.org/2000/svg" width="75" height="75" viewBox="0 0 75 75">
+const contactMeIcon = (
+<svg 
+className="mx-auto lg:my-4" 
+xmlns="http://www.w3.org/2000/svg" 
+width="75" 
+height="75" 
+viewBox="0 0 75 75">
   <g id="icon" transform="translate(-123 -473)">
     <g id="contactCircle" transform="translate(123 473)" fill="#fff" stroke="#000" strokeWidth="1">
       <circle cx="37.5" cy="37.5" r="37.5" stroke="none"/>

@@ -21,7 +21,7 @@
 }
 .typing-container {
     text-align: center;
-    width: 290px;
+    width: 310px;
     margin: 1rem auto;
 
 }
@@ -33,4 +33,15 @@
     white-space: nowrap;
     width: 0;
     margin-right: 5px;
+    line-height: 160%;
+}
+
+@media screen and (min-width: 1024px) {
+    .typing-container{
+        width: 544px;
+    }
+    svg {
+    width: 50px;
+}
+    
 }

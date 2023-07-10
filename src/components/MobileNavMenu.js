@@ -26,28 +26,31 @@ function MobileNavMenu({showHideNav, navOpen}) {
   //   };
   // }, [showHideNav]);
 
+  
   return (
     <>
+ <div className="bg-white fixed bottom-0 w-[100vw] h-[60px] z-[500] lg:hidden"></div>
     {/* <div className= {isSmallScreen ? showHideNav() : "" }> */}
+
     <div className={navOpen ? "mobile-nav-overlay fixed h-screen w-screen z-10 top-0 ": "hidden"} onClick={() => {
       showHideNav(!navOpen)
     }}></div>
       <nav className="mobile-nav text-center z-20 bg-white lg:hidden">
-  <ul className="flex flex-col h-full justify-evenly lg:hidden">
-    {[
-      { href: "/#home", icon: homeIconWhiteBg },
-      { href: "/#about", icon: aboutMeIcon },
-      { href: "/#projects", icon: projectsIcon },
-      { href: "/#contact", icon: contactMeIcon },
-    ].map((item, index) => (
-      <li  key={index}>
-        <a href={item.href}>
-           {item.icon}
-        </a>
-      </li>
-    ))}
-  </ul>
-</nav>
+        <ul className="flex flex-col h-full justify-evenly lg:hidden">
+          {[
+            { href: "/", icon: homeIconWhiteBg },
+            { href: "/#about", icon: aboutMeIcon },
+            { href: "/#projects", icon: projectsIcon },
+            { href: "/#contact", icon: contactMeIcon },
+          ].map((item, index) => (
+            <li  key={index}>
+              <a href={item.href} onClick={() => {showHideNav(!navOpen)}}>
+                {item.icon}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </nav>
       {/* </div> */}
     </>
   )

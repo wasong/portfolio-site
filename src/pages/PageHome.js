@@ -37,12 +37,17 @@ function PageHome () {
             <main>
               <Logo />
             <DesktopNavMenu />
-              <section className= "welcome h-[100dvh]">
-                <h1 className="text-center mx-auto mt-32 text-3xl" >Hey,</h1>
+
+              <section className= "welcome h-[100dvh] max-w-[320px] flex flex-col justify-center items-center mx-auto lg:max-w-[544px]">
+                <h1 className="mx-auto text-3xl lg:text-[4rem] lg:mb-4" >Hey,</h1>
                   <div className="typing-container" >
-                    <h2 className="typed-text text-center text-3xl"> My name is <span style={{ fontWeight: 'bold', fontSize: '2.5rem'}}>Brice</span>.</h2>
+                    <h2 className="typed-text text-center text-3xl lg:text-[3rem]">
+                        My name is <span className="font-bold text-[3rem] lg:text-[6rem]">Brice</span>.
+                     </h2>
                   </div>
+                  <p className="animate-delayed-fade-in opacity-0 text-center">Welcome to my page</p>
               </section>
+
                 <div className="downArrow">
                   <div className={`fade-out ${isVisible ? '' : 'hidden'}`}>
                   <div className="arrowContainer h-16 flex justify-center items-center flex-col ">
