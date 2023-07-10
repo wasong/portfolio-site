@@ -14,7 +14,20 @@
       "id": "project2",
       "title": "Movie Database",
       "description": "A movie database project is a software application or website that allows users to browse and search for information about movies. It typically includes a database of movies with details such as titles, release dates, genres, cast and crew, ratings, and plot summaries. Users can interact with the database by searching for specific movies, exploring popular or trending films, reading reviews and ratings, and saving movies to a favourite's list. This project utilizes The Movie Database API to access all the information about movies.",
-      "image": "project2.jpg",
+      "image": [
+        {
+          "title": "Mobile View",
+          "imgUrl": "https://i.imgur.com/6HVV0xu.png"
+        },
+        {
+          "title": "Desktop Top View",
+          "imgUrl": "https://i.imgur.com/2UKLQuD.png"
+        },
+        {
+          "title": "Desktop Bottom View",
+          "imgUrl": "https://i.imgur.com/8sZZl6R.png"
+        }
+      ],
       "technologies": ["React Native", "JavaScript", "SASS"],
       "url": "https://bricechen.ca/movie-database/",
       "class": "project2",
