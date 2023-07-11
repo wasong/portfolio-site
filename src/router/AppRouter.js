@@ -12,7 +12,7 @@ import Logo from '../components/Logo';
 import PageHome from '../pages/PageHome';
 import PageNotFound from '../pages/PageNotFound';
 import PageIndividualProj from '../pages/PageIndividualProj';
-
+import PageAllProj from '../pages/PageAllProj';
 
 
 function AppRouter() {
@@ -25,6 +25,7 @@ function AppRouter() {
       </header>
             <Routes>
                 <Route path="/" element={<PageHome />} />
+                <Route path="/all-projects" element={<PageAllProj />} />
                 <Route path="/projects/:id" element={<PageIndividualProj/>} />
                 <Route path="*" element={<PageNotFound />} />
             </Routes> 
