@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import MobileNavMenu from './MobileNavMenu';
+import NavMenu from './NavMenu';
 
 function HamburgerMenu() {
 const [navOpen, setNavOpen] = useState(false);
@@ -27,7 +27,7 @@ return (
         </span>
         <span className="sr-only">Menu</span>
       </button>
-      <MobileNavMenu showHideNav={showHideNav} navOpen={navOpen} />
+      <NavMenu showHideNav={showHideNav} navOpen={navOpen} />
     </div>
   </header>
 );

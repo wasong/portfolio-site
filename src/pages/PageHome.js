@@ -2,7 +2,6 @@ import React, {useEffect, useState} from "react";
 import Carousel from "../features/carousel";
 import Projects from "../components/Projects";
 import About from "../components/About";
-import DesktopNavMenu from "../components/DesktopNavMenu";
 import Logo from "../components/Logo";
 
 function PageHome () {
@@ -26,12 +25,8 @@ function PageHome () {
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
-
-    return (
+      return (
             <main>
-              <Logo />
-            <DesktopNavMenu />
-
               <section className= "welcome h-[100dvh] max-w-[320px] flex flex-col justify-center items-center mx-auto lg:max-w-[544px]">
                 <h1 className="mx-auto text-3xl lg:text-[4rem] lg:mb-4" >Hey,</h1>
                   <div className="typing-container" >

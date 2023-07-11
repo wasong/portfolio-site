@@ -4,9 +4,9 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 //components
 import Footer from '../components/Footer';
-import MobileNavMenu from "../components/MobileNavMenu";
+import NavMenu from "../components/NavMenu";
 import HamburgerMenu from "../components/HamburgerMenu";
-import DesktopNavMenu from '../components/DesktopNavMenu';
+// import DesktopNavMenu from '../components/DesktopNavMenu';
 import Logo from '../components/Logo';
 
 //pages
@@ -21,8 +21,8 @@ function AppRouter() {
     <BrowserRouter  >
       <header>
         <Logo />
-        <DesktopNavMenu />
-        <MobileNavMenu/>
+        {/* <DesktopNavMenu /> */}
+        <NavMenu/>
         <HamburgerMenu/>
       </header>
             <Routes>

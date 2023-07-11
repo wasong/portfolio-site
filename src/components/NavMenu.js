@@ -26,16 +26,38 @@ function MobileNavMenu({showHideNav, navOpen}) {
   //   };
   // }, [showHideNav]);
 
-  
-  return (
-    <>
- <div className="bg-white fixed bottom-0 w-[100vw] h-[60px] z-[500] lg:hidden"></div>
-    {/* <div className= {isSmallScreen ? showHideNav() : "" }> */}
+const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
-    <div className={navOpen ? "mobile-nav-overlay fixed h-screen w-screen z-10 top-0 ": "hidden"} onClick={() => {
-      showHideNav(!navOpen)
-    }}></div>
-      <nav className="mobile-nav text-center z-[1001] bg-white lg:hidden">
+  useEffect(() => {
+    // Update window width on window resize
+    const handleResize = () => {
+      setWindowWidth(window.innerWidth);
+    };
+
+    window.addEventListener('resize', handleResize);
+
+    // Cleanup the event listener
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
+  // Define the content based on the window width
+  let content;
+  if (windowWidth >= 1024) {
+    content = <div className="desktop-nav-menu hidden lg:block fixed z-50 right-[2rem] top-[50%] transform -translate-y-1/2">
+            <ul className="flex flex-col items-center">
+                <li>  <a href="/#page-header"><div>{homeIconWhiteBg}</div></a>  </li>   
+                <li>  <a href="/#about"><div>{aboutMeIcon}</div></a>  </li>
+                <li>  <a href="/#projects"><div>{projectsIcon}</div></a>  </li>
+                <li>  <a href="/#contact"><div>{contactMeIcon}</div></a>  </li>
+            </ul>
+        </div>;
+  } else {
+    content = 
+    
+    
+      <div className="mobile-nav text-center z-[1001] bg-white lg:hidden">
         <ul className="flex flex-col h-full justify-evenly lg:hidden">
           {[
             { href: "/", icon: homeIconWhiteBg },
@@ -55,10 +77,16 @@ function MobileNavMenu({showHideNav, navOpen}) {
             </li>
           ))}
         </ul>
-      </nav>
-      {/* </div> */}
-    </>
-  )
-}
+        <div className="bg-white fixed bottom-0 w-[100vw] h-[60px] z-[500] lg:hidden"></div>
+
+    <div className={navOpen ? "mobile-nav-overlay fixed h-screen w-screen z-10 top-0 ": "hidden"} onClick={() => {showHideNav(!navOpen)}}></div>
+      </div>
+   
+  }
+
+  return <nav>{content}</nav>;
+};
+  
+  
 
 export default MobileNavMenu;
