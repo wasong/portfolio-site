@@ -25,7 +25,7 @@ function AppRouter() {
       </header>
             <Routes>
                 <Route path="/" element={<PageHome />} />
-                <Route path="/all-projects" element={<PageAllProj />} />
+                <Route path="/projects" element={<PageAllProj />} />
                 <Route path="/projects/:id" element={<PageIndividualProj/>} />
                 <Route path="*" element={<PageNotFound />} />
             </Routes> 

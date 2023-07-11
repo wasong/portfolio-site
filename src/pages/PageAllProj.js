@@ -1,5 +1,5 @@
 import portfolio from '../json/portfolio.json';
-import MoreInfoButton from '../components/MoreInfoButton';
+import { Link } from 'react-router-dom';
 
 
 function PageAllProjects() {
@@ -8,18 +8,18 @@ function PageAllProjects() {
 
   return (
     <section id="projects" className="mx-4 my-4">
-      <h2 className="text-xl text-center font-bold">Projects</h2>
+      <h2 className="text-4xl text-center font-bold my-8">Projects</h2>
+      <div className="allProjectsWrapper grid justify-center gap-8">
       {project.map((project) => (
-      
-        <div className={project.class} key={project.title}>
-          <h3>{project.title}</h3>
-          <img src={project.mobile} alt={project.title} />
-          <ul>
-          </ul>
-          <MoreInfoButton project= {project}/>
-        </div>
-        
+            <article className={project.class} key={project.title}>
+                <h3 className="text-3xl">{project.title}</h3>
+                <img src={project.mobile} alt={project.title} /> 
+                <div className="more-info-button">
+                    <Link to={`/projects/${project.id}`}>More Info</Link>
+                </div>
+            </article>         
       ))}
+      </div>
     </section>
   );
 }

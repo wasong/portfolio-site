@@ -1,11 +1,11 @@
 import React from 'react';
 import portfolio from '../json/portfolio.json';
 import MoreInfoButton from './MoreInfoButton';
-// import Carousel from '../features/carousel';
+import { Link } from 'react-router-dom';
 
 function Projects() {
  const project= portfolio.projects;
-//  const slides = project.image
+
 
   return (
     <section id="projects" className="mx-4 my-4">
@@ -16,14 +16,11 @@ function Projects() {
           <h3>{project.title}</h3>
           <img src={project.mobile} alt={project.title} />
           <ul>
-            {/* {project.technologies.map((technology) => (
-              <li key={technology}>{technology}</li>
-            ))} */}
           </ul>
           <MoreInfoButton project= {project}/>
         </div>
-        
       ))}
+      <Link to={`/projects/`}>See All Projects</Link>
     </section>
   );
 }

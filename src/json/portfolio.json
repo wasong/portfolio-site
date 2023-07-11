@@ -20,7 +20,8 @@
       ],
       "technologies": ["WordPress", "SASS", "JavaScript", "PHP"],
       "url": "https://example.com/project1",
-      "github": "https://github.com/your-username/project1"
+      "github": "https://github.com/your-username/project1",
+      "class" : "project1"
     },
      {
       "id": "movie-database",
