@@ -35,7 +35,7 @@ function MobileNavMenu({showHideNav, navOpen}) {
     <div className={navOpen ? "mobile-nav-overlay fixed h-screen w-screen z-10 top-0 ": "hidden"} onClick={() => {
       showHideNav(!navOpen)
     }}></div>
-      <nav className="mobile-nav text-center z-20 bg-white lg:hidden">
+      <nav className="mobile-nav text-center z-[1001] bg-white lg:hidden">
         <ul className="flex flex-col h-full justify-evenly lg:hidden">
           {[
             { href: "/", icon: homeIconWhiteBg },
@@ -44,9 +44,14 @@ function MobileNavMenu({showHideNav, navOpen}) {
             { href: "/#contact", icon: contactMeIcon },
           ].map((item, index) => (
             <li  key={index}>
-              <a href={item.href} onClick={() => {showHideNav(!navOpen)}}>
-                {item.icon}
-              </a>
+              <div className="mobileNavLineContainer">
+                <div className="mobileNavLine">
+                <a href={item.href}  onClick={() => {showHideNav(!navOpen)}}>
+                  {item.icon}
+                </a>
+                </div>
+              </div>
+              
             </li>
           ))}
         </ul>

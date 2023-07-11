@@ -13,6 +13,7 @@ export default function Carousel({
   const next = () =>
     setCurr((curr) => (curr === slides.length - 1 ? 0 : curr + 1))
 
+    console.log(curr)
   useEffect(() => {
     if (!autoSlide) return
     const slideInterval = setInterval(next, autoSlideInterval)
@@ -20,7 +21,7 @@ export default function Carousel({
   },)
 
   const slideElements = slides.map((slide, index) => (
-    <img key={index} src={slide} alt={`Slide ${index}`} />
+    <img key={index} src={slide.imgUrl} alt={`Slide ${index}`} />
   ))
 
   return (
@@ -59,6 +60,6 @@ export default function Carousel({
           ))}
         </div>
       </div>
-    </div>
+     </div>
   )
 }

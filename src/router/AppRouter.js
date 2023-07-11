@@ -6,7 +6,8 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Footer from '../components/Footer';
 import MobileNavMenu from "../components/MobileNavMenu";
 import HamburgerMenu from "../components/HamburgerMenu";
-
+import DesktopNavMenu from '../components/DesktopNavMenu';
+import Logo from '../components/Logo';
 
 //pages
 import PageHome from '../pages/PageHome';
@@ -14,10 +15,13 @@ import PageNotFound from '../pages/PageNotFound';
 import PageIndividualProj from '../pages/PageIndividualProj';
 
 
+
 function AppRouter() {
   return (
     <BrowserRouter  >
       <header>
+        <Logo />
+        <DesktopNavMenu />
         <MobileNavMenu/>
         <HamburgerMenu/>
       </header>

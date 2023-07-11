@@ -1,6 +1,7 @@
 import { useParams } from 'react-router-dom';
 import { useEffect } from 'react'; 
 import portfolio from '../json/portfolio.json';
+import Carousel from 'react-material-ui-carousel';
 
 function IndividualProj() {
   const { id } = useParams();
@@ -14,13 +15,15 @@ useEffect(() => {
 }, []);  
 
 const project = portfolio.projects.find(project => project.id === id);
-
      
   return(
     <main>
-      {project ? (
+         {project ? (
         <div>
-          <h2>{project.title}</h2>
+          <h2 className="text-3xl text-center my-2">{project.title}</h2>
+          <Carousel>
+            {project.image.map((image, i) => (<img key={i} src={image.imgUrl} alt={project.title} className="mx-auto"/>))}
+          </Carousel>
           <p></p>
           {/* Other project details */}
         </div>

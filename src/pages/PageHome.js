@@ -27,12 +27,6 @@ function PageHome () {
     };
   }, []);
 
-  const slides = [
-    "https://i.imgur.com/Cf1NIU5.png",
-    "https://i.imgur.com/y57oi1j.jpg",
-    "https://i.imgur.com/TjQRsVY.png"
-  ]
-
     return (
             <main>
               <Logo />
@@ -58,7 +52,6 @@ function PageHome () {
                   </div>
                 </div>
               <About/>
-              <Carousel slides={slides}/>
                 <Projects/>
             </main> 
         
