@@ -6,7 +6,6 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Footer from '../components/Footer';
 import NavMenu from "../components/NavMenu";
 import HamburgerMenu from "../components/HamburgerMenu";
-// import DesktopNavMenu from '../components/DesktopNavMenu';
 import Logo from '../components/Logo';
 
 //pages
@@ -21,7 +20,6 @@ function AppRouter() {
     <BrowserRouter  >
       <header>
         <Logo />
-        {/* <DesktopNavMenu /> */}
         <NavMenu/>
         <HamburgerMenu/>
       </header>
