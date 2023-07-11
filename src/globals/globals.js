@@ -5,8 +5,8 @@ const homeIconWhiteBg = (
     id="homeIcon"
     xmlns="http://www.w3.org/2000/svg"
     width="75"
-    height="74"
-    viewBox="0 0 75 74"
+    height="75"
+    viewBox="0 0 75 75"
     className="mx-auto  lg:my-4"
   >
     <g id="Ellipse_4" data-name="Ellipse 4" fill="#fff" stroke="#000" strokeWidth="1">
@@ -28,8 +28,8 @@ className="mx-auto lg:my-4"
 id="aboutMeIcon" 
 xmlns="http://www.w3.org/2000/svg" 
 width="75" 
-height="74" 
-viewBox="0 0 75 74"
+height="75" 
+viewBox="0 0 75 75"
 >
   <g id="Ellipse_1" data-name="Ellipse 1" fill="#fff" stroke="#000" strokeWidth="1">
     <ellipse cx="37.5" cy="37" rx="37.5" ry="37" stroke="none"/>

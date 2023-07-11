@@ -1,7 +1,7 @@
 import React, { useState, useEffect}  from 'react';
 import { homeIconWhiteBg, aboutMeIcon, projectsIcon, contactMeIcon } from "../globals/globals"
 
-function MobileNavMenu({showHideNav, navOpen}) {
+function NavMenu({showHideNav, navOpen}) {
 // const [isSmallScreen, setIsSmallScreen] = useState(false);
 
   // useEffect(() => {
@@ -45,7 +45,7 @@ const [windowWidth, setWindowWidth] = useState(window.innerWidth);
   // Define the content based on the window width
   let content;
   if (windowWidth >= 1024) {
-    content = <div className="desktop-nav-menu hidden lg:block fixed z-50 right-[2rem] top-[50%] transform -translate-y-1/2">
+    content = <div className="desktop-nav-menu fixed z-50 right-[2rem] top-[50%] transform -translate-y-1/2">
             <ul className="flex flex-col items-center">
                 <li>  <a href="/#page-header"><div>{homeIconWhiteBg}</div></a>  </li>   
                 <li>  <a href="/#about"><div>{aboutMeIcon}</div></a>  </li>
@@ -55,10 +55,11 @@ const [windowWidth, setWindowWidth] = useState(window.innerWidth);
         </div>;
   } else {
     content = 
-    
-    
-      <div className="mobile-nav text-center z-[1001] bg-white lg:hidden">
-        <ul className="flex flex-col h-full justify-evenly lg:hidden">
+    <div>
+      <div className="bg-white fixed bottom-0 w-[100vw] h-[60px] z-[500]"></div>
+      <div className={navOpen ? "mobile-nav-overlay fixed h-screen w-screen z-10 top-0 ": "hidden"} onClick={() => {showHideNav(!navOpen)}}></div>
+      <div className="mobile-nav text-center z-[1001] bg-white">
+        <ul className="flex flex-col h-full justify-evenly">
           {[
             { href: "/", icon: homeIconWhiteBg },
             { href: "/#about", icon: aboutMeIcon },
@@ -77,10 +78,8 @@ const [windowWidth, setWindowWidth] = useState(window.innerWidth);
             </li>
           ))}
         </ul>
-        <div className="bg-white fixed bottom-0 w-[100vw] h-[60px] z-[500] lg:hidden"></div>
-
-    <div className={navOpen ? "mobile-nav-overlay fixed h-screen w-screen z-10 top-0 ": "hidden"} onClick={() => {showHideNav(!navOpen)}}></div>
       </div>
+    </div>
    
   }
 
@@ -89,4 +88,4 @@ const [windowWidth, setWindowWidth] = useState(window.innerWidth);
   
   
 
-export default MobileNavMenu;
+export default NavMenu;

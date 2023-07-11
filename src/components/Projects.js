@@ -13,7 +13,7 @@ function Projects() {
       {project.map((project) => (
         
         <div className={project.class} key={project.title}>
-          <h2>{project.title}</h2>
+          <h3>{project.title}</h3>
           {/* <Carousel {...slides}/> */}
           <p>{project.description}</p>
           <img src={project.mobile} alt={project.title} />
