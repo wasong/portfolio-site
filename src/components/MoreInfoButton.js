@@ -4,7 +4,7 @@ function MoreInfoButton({project}) {
 
   return (
     <div className="more-info-button">
-      <Link to={`projects/${project.id}`}>More Info</Link>
+      <Link to={`projects/${project.id}`} className="text-right block mt-4">More Info</Link>
     </div>
   )
 }

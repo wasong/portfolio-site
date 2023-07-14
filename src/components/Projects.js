@@ -9,17 +9,17 @@ function Projects() {
 
   return (
     <section id="projects" className="mx-4 my-4">
-      <h2 className="text-xl text-center font-bold">Projects</h2>
-      <div className="projects-flex-container flex flex-wrap mx-auto justify-center"> 
+      <h2 className="text-2xl text-center font-bold">Projects</h2>
+      <div className="projects-flex-container flex flex-wrap mx-auto justify-center my-8"> 
       {project.slice(0,2).map((project) => (
       
-        <div className={project.class + "projects-flex-child mx-4"} key={project.title}>
+        <div className={project.class + " projects-flex-child mx-4 my-4"} key={project.title}>
           <h3>{project.title}</h3>
           {/* <img src={project.mobile} alt={project.title} /> */}
           <img src="https://placehold.co/300x250" alt="placeholder" />
           <ul>
           </ul>
-          <MoreInfoButton project= {project}/>
+          <MoreInfoButton project= {project} />
         </div>
       ))}
       </div>
