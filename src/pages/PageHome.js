@@ -3,6 +3,7 @@ import Carousel from "../features/carousel";
 import Projects from "../components/Projects";
 import About from "../components/About";
 import Logo from "../components/Logo";
+import Contact from "../components/Contact";
 
 function PageHome () {
     
@@ -48,6 +49,7 @@ function PageHome () {
                 </div>
               <About/>
                 <Projects/>
+                <Contact/>
             </main> 
         
     )

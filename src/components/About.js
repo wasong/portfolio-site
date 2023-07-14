@@ -5,12 +5,19 @@ function About() {
 
 return (
     <section id="about">
-    <div className="about">
-        <h2  className= "text-center text-xl2"> About Me</h2>
-        <img  src="https://i.imgur.com/Yhp8tZB.jpg" alt="Brice Chen" className="mx-auto w-[250px]" />
-        <p className= "my-4 mx-8"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, sit. Alias quibusdam quam voluptatibus omnis illo numquam ab cupiditate possimus sapiente pariatur, consectetur, ea voluptate in dolor! Libero, ipsa dignissimos.</p>
-    </div>
-   </section>
+        <article className="about">
+            <h2  className= "text-center text-xl2"> About Me</h2>
+            <img  src="https://i.imgur.com/Yhp8tZB.jpg" alt="Brice Chen" className="mx-auto w-[250px]" />
+            <p className= "my-4 mx-8"> I am front-end web developer with a background in nursing. I enjoy playing basketball, riding motorcycles, and hiking. I also like traveling but my wallet is the thing holding me back. </p>
+        </article>
+
+        <article>
+            <h2 className= "text-center text-xl2"> Toolkit</h2>
+            <h3>Development</h3>
+            <h3>Design</h3>
+        </article>
+        
+    </section>
 )
 }
 
