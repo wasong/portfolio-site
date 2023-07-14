@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from "react";
-import Carousel from "../features/carousel";
+// import Carousel from "../features/carousel";
 import Projects from "../components/Projects";
 import About from "../components/About";
 import Logo from "../components/Logo";
