@@ -21,7 +21,7 @@ const project = portfolio.projects.find(project => project.id === id);
     <main>
          {project ? (
         <div>
-          <h2 className="text-3xl text-center my-2">{project.title}</h2>
+          <h2 className="text-3xl font-bold text-center my-8 md:text-6xl">{project.title}</h2>
           <Carousel>
             {project.image.map((image, i) => (<img key={i} src={image.imgUrl} alt={project.title} className="mx-auto"/>))}
           </Carousel>

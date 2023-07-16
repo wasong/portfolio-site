@@ -29,7 +29,7 @@ export default function AccordionComponent({ items }) {
           </AccordionSummary>
           <AccordionDetails>
             <Typography>{item.content}</Typography>
-            {item.codeLink ? (<a href={item.codeLink} target="_blank" rel="noopener noreferrer">View Code</a>) : null}
+            {item.codeLink ? (<a href={item.codeLink} className="hover:underline  block my-6 border border-black p-4" target="_blank" rel="noopener noreferrer">View Code</a>) : null}
           </AccordionDetails>
         </Accordion>
       ))}
