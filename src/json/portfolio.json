@@ -3,6 +3,7 @@
     {
       "id": "capstone-project",
       "title": "Capstone Project",
+      "description":"",
       "homeImage":"",
       "image": [
         {
@@ -16,6 +17,20 @@
         {
          "title": "desktopBot",
           "imgUrl": "https://i.imgur.com/8sZZl6R.png"
+        }
+      ],
+      "accordionItems": [
+        {
+          "title": "Planning",
+          "content": "Coming soon."
+        },
+        {
+          "title": "Highlights",
+          "content": "Coming soon."
+        },
+        {
+          "title": "Reflection",
+          "content": "Coming soon."
         }
       ],
       "technologies": ["WordPress", "SASS", "JavaScript", "PHP"],
@@ -42,6 +57,22 @@
           "imgUrl": "https://i.imgur.com/8sZZl6R.png"
         }
       ],
+      "accordionItems": [
+        {
+          "title": "Planning",
+          "content": "This project was developed in a team of 3 consisting of myself and 2 classmates: Crystal Chen and Yui Sakamoto. We had previously all came up with our own mockups for a different class for a movie website. We ended up picking Yui's design as a base for our site while also utilizing parts of Crystal and myselfs' designs. We wanted to create a site that is simple and easy to navigate. We also wanted to make sure that the site was responsive and would look good on all devices. "
+        },
+        {
+          "title": "Highlights",
+          "contentTitle": "Movie Categories",
+          "content": "This feature provided users with the ability to sort movies using four distinct categories: popular, top-rated, now playing, and upcoming. We achieved this by dynamically updating the API call according to the selected category, ensuring that the correct data was fetched and displayed to the users.",
+          "codeLink": "https://github.com/chencxw/movie-database/blob/main/src/pages/PageHome.js#L23"
+        },
+        {
+          "title": "Reflection",
+          "content": "Filmbox was my first React app, and it proved to be an invaluable learning experience. Throughout the project, I delved into various aspects of React development, including making API calls, utilizing React Router, managing state with React Redux, leveraging React hooks (especially useEffect), and storing data locally. One of the highlights was discovering how to dynamically fetch data from APIs, transforming the app with real-time and dynamic content. Working collaboratively with my teammate was a great pleasure. Our strengths complemented each other, enabling us to support one another and keep the development process smooth and enjoyable. The supportive team environment made a significant difference in the overall experience. This movie database project taught me the value of collaboration and teamwork. We capitalized on each other's strengths, allowing us to tackle challenges effectively and efficiently. It was inspiring to witness how our combined efforts led to faster progress and the successful implementation of additional features. Celebrating the completion of the project as a team was truly rewarding. While there is room for improvement in organizing our code, the teamwork has resulted in a well-rounded project that reflects our collective dedication."
+        }
+      ],
       "technologies": ["React Native", "JavaScript", "SASS"],
       "url": "https://bricechen.ca/movie-database/",
       "class": "project2",
@@ -49,8 +80,8 @@
     },
     {
       "id": "project3",
-      "title": "Project 3",
-      "description": "For this project, I collaborated with a team to build a database-driven web application using Django framework. It allowed users to create and manage their personal tasks.",
+      "title": "Portfolio Site",
+      "description": "For this project, I created a portfolio site to showcase the work I have done so far. I used React to build the site and used a mix of Tailwind and SASS for styling. I also used React Router to create a single page application. I created a JSON file to hold information for all the projects and pulled the information from it to dynamically create the project pages.",
       "homeImage":"",
       "image": [
         {
@@ -66,7 +97,21 @@
           "imgUrl": "https://i.imgur.com/8sZZl6R.png"
         }
       ],
-      "technologies": ["Python", "Django", "HTML", "CSS"],
+      "accordionItems": [
+        {
+          "title": "Planning",
+          "content": "Similar to the other projects, I first started out by looking through many of the past students portfolios to gain inspiration as to what I want on my site. From there, I started with a site map and content plan to help organize things which led to a wireframe/mockup. I at first thought that the mockup I had previously created would serve me fine for this site however, I kept having second thoughts and new ideas as I was building. The following picture is what I had for the mockup and as you can see, the final site is quite a bit different."
+        },
+        {
+          "title": "Highlights",
+          "content": "Some highlights for this project include having a responsive design. The site is useable on all screen sizes. Also, wherever possible, I used code that can be reused in other places on the site. For example, the accordion component can be used for any project that has an accordion section. I also used a JSON file to hold all the information for the projects. This allows me to easily add new projects to the site without having to change any code. I also used React Router to create a single page application. This allows the user to navigate the site without having to reload the page."
+        },
+        {
+          "title": "Reflection",
+          "content": "This is my first big project and working on it alone. There were many difficulties that I came across as I was working away at this project. First and foremost, I started to dislike my original design and wanted to change it. I ended up changing the design quite a bit and while I am much happier with the final result, it took a lot of time as I couldn't just follow along a pre-made mockup. I also had a hard time with the JSON file. I had to do a lot of research to figure out how structure the actual file itself so I was able to pull the information and display it how I want on the site. Another thing is usage of Tailwind. Using tailwind felt very different and I had to fight the urge to just give up and move back to something more comfortable like SASS to style everything. I used Tailwind to style everything that I can but there were a few places where I couldn't get it to work properly. Despite all this, I felt I was able to learn a lot from this project and I am also happy that I was able to create a site that I can use to showcase my work."
+        }
+      ],
+      "technologies": ["React", "JavaScript", "HTML", "Tailwind", "SASS", "JSON"],
       "url": "https://example.com/project3",
       "class": "project3",
       "github": "https://github.com/your-username/project3"

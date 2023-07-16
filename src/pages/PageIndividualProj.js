@@ -2,6 +2,7 @@ import { useParams } from 'react-router-dom';
 import { useEffect } from 'react'; 
 import portfolio from '../json/portfolio.json';
 import Carousel from 'react-material-ui-carousel';
+import AccordionComponent from '../components/Accordion';
 
 function IndividualProj() {
   const { id } = useParams();
@@ -24,8 +25,9 @@ const project = portfolio.projects.find(project => project.id === id);
           <Carousel>
             {project.image.map((image, i) => (<img key={i} src={image.imgUrl} alt={project.title} className="mx-auto"/>))}
           </Carousel>
-          <p></p>
+          <p>{project.description} </p>
           {/* Other project details */}
+        <AccordionComponent items={project.accordionItems}/>
         </div>
       ) : (
         <div>Project not found</div>
@@ -35,3 +37,5 @@ const project = portfolio.projects.find(project => project.id === id);
 }
 
 export default IndividualProj;
+
+
