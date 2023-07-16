@@ -8,11 +8,11 @@ function PageAllProjects() {
 
   return (
     <section id="projects" className="mx-4 my-4">
-      <h2 className="text-4xl text-center font-bold my-8">Projects</h2>
+      <h2 className="text-4xl text-center font-bold my-8 lg:text-6xl">Projects</h2>
       <div className="allProjectsWrapper grid justify-center gap-8">
       {project.map((project) => (
             <article className={project.class + ' max-w-[400px] my-8'} key={project.title}>
-                <h3 className="text-3xl">{project.title}</h3>
+                <h3 className="text-3xl mb-4">{project.title}</h3>
                 <img src={project.homeImage} alt={project.title} /> 
                 <div className="more-info-button">
                     <Link to={`/projects/${project.id}`}>More Info</Link>

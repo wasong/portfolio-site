@@ -15,7 +15,6 @@ function Projects() {
       
         <div className={project.class + " projects-flex-child mx-2 my-4"} key={project.title}>
           <h3>{project.title}</h3>
-          {/* <img src={project.mobile} alt={project.title} /> */}
           <img src={project.homeImage} alt={project.homeImageAlt} className="max-h-[250px]" />
           <ul>
           </ul>
