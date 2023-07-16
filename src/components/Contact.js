@@ -19,7 +19,7 @@ function Contact() {
         <a href="/" className="mx-2 my-4">
           <HovImage
             src={linkedinIcon}
-            alt="Facebook Icon"
+            alt="LinkedIn Icon"
             hoverSrc={linkedinHov}
           />
         </a>

@@ -1,52 +1,15 @@
 {
   "projects": [
     {
-      "id": "capstone-project",
-      "title": "Capstone Project",
-      "description":"",
-      "homeImage":"",
-      "image": [
-        {
-          "title": "Mobile View",
-          "imgUrl": "https://i.imgur.com/6HVV0xu.png"
-        },
-        {
-          "title": "desktopTop",
-          "imgUrl": "https://i.imgur.com/2UKLQuD.png"
-        },
-        {
-         "title": "desktopBot",
-          "imgUrl": "https://i.imgur.com/8sZZl6R.png"
-        }
-      ],
-      "accordionItems": [
-        {
-          "title": "Planning",
-          "content": "Coming soon."
-        },
-        {
-          "title": "Highlights",
-          "content": "Coming soon."
-        },
-        {
-          "title": "Reflection",
-          "content": "Coming soon."
-        }
-      ],
-      "technologies": ["WordPress", "SASS", "JavaScript", "PHP"],
-      "url": "https://example.com/project1",
-      "github": "https://github.com/your-username/project1",
-      "class" : "project1"
-    },
-     {
       "id": "movie-database",
       "title": "Movie Database",
       "description": "This is a movie database app that allows users explore current movies and view their details. It was built using React Native and we utilized TMDB's API to dynamically fetch all the data. Users are able to search for movies, filter movies, and have a personalized list of favourite movies.",
-      "homeImage":"",
+      "homeImage":"https://i.imgur.com/YcTsGNf.jpg",
+      "homeImageAlt": "Movie Database Home Page",
       "image": [
         {
           "title": "Mobile View",
-          "imgUrl": "https://i.imgur.com/6HVV0xu.png"
+          "imgUrl": "https://i.imgur.com/z52VVix.jpg"
         },
         {
           "title": "desktopTop",
@@ -77,6 +40,45 @@
       "url": "https://bricechen.ca/movie-database/",
       "class": "project2",
       "github": "https://github.com/chencxw/movie-database"
+    },
+    {
+      "id": "capstone-project",
+      "title": "Capstone Project",
+      "description":"Coming soon.",
+      "homeImage":"https://i.imgur.com/DA3NdqD.jpg",
+      "homeImageAlt": "coming soon",
+      "image": [
+        {
+          "title": "Mobile View",
+          "imgUrl": "https://i.imgur.com/DA3NdqD.jpg"
+        },
+        {
+          "title": "desktopTop",
+          "imgUrl": "https://i.imgur.com/DA3NdqD.jpg"
+        },
+        {
+         "title": "desktopBot",
+          "imgUrl": "https://i.imgur.com/DA3NdqD.jpg"
+        }
+      ],
+      "accordionItems": [
+        {
+          "title": "Planning",
+          "content": "Coming soon."
+        },
+        {
+          "title": "Highlights",
+          "content": "Coming soon."
+        },
+        {
+          "title": "Reflection",
+          "content": "Coming soon."
+        }
+      ],
+      "technologies": ["WordPress", "SASS", "JavaScript", "PHP"],
+      "url": "https://example.com/project1",
+      "github": "https://github.com/your-username/project1",
+      "class" : "project1"
     },
     {
       "id": "project3",
