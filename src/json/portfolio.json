@@ -23,7 +23,7 @@
       "accordionItems": [
         {
           "title": "Planning",
-          "content": "This project was developed in a team of 3 consisting of myself and 2 classmates: Crystal Chen and Yui Sakamoto. We had previously all came up with our own mockups for a different class for a movie website. We ended up picking Yui's design as a base for our site while also utilizing parts of Crystal and myselfs' designs. We wanted to create a site that is simple and easy to navigate. We also wanted to make sure that the site was responsive and would look good on all devices. "
+          "content": "This project was developed by a team of three, consisting of myself and two classmates: Crystal Chen and Yui Sakamoto. Initially, each of us created our own mockups for a different class, focusing on a movie website. Eventually, we chose Yui's design as the foundation for our site, while also incorporating elements from Crystal's and my own designs. Our primary goal was to create a simple and user-friendly website that provides easy navigation. Additionally, we ensured that the site is fully responsive, offering a seamless experience across all devices."
         },
         {
           "title": "Highlights",
@@ -76,7 +76,7 @@
         }
       ],
       "technologies": ["WordPress", "SASS", "JavaScript", "PHP"],
-      "url": "https://example.com/project1",
+      "url": "https://healinghaven.bcitwebdeveloper.ca/",
       "github": "https://github.com/your-username/project1",
       "class" : "project1"
     },
@@ -106,7 +106,7 @@
         },
         {
           "title": "Highlights",
-          "content": "Some highlights for this project include having a responsive design. The site is useable on all screen sizes. Also, wherever possible, I used code that can be reused in other places on the site. For example, the accordion component can be used for any project that has an accordion section. I also used a JSON file to hold all the information for the projects. This allows me to easily add new projects to the site without having to change any code. I also used React Router to create a single page application. This allows the user to navigate the site without having to reload the page."
+          "content": "Some highlights for this project include having a responsive design. This ensures the websites useability across all screen sizes and allows users the ability to access and navigate the site regardless of what they are using. Also, wherever possible, I wrote code in a way that can be reused in other places on the site to follow the 'DRY' principle. To facilitate content management and streamline the addition of new projects, I opted to utilize a JSON file to store all project information. This strategic decision separates content from code, making it effortless to update the site without requiring any code changes. I also used React Router to create a single page application. This allows the user to navigate the site without having to reload the page."
         },
         {
           "title": "Reflection",
@@ -114,9 +114,9 @@
         }
       ],
       "technologies": ["React", "JavaScript", "HTML", "Tailwind", "SASS", "JSON"],
-      "url": "https://example.com/project3",
+      "url": "https://bricechen.ca",
       "class": "project3",
-      "github": "https://github.com/your-username/project3"
+      "github": "https://github.com/bChen-95/portfolio-site"
     }
    
   ]
