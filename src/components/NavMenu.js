@@ -1,5 +1,5 @@
 import React, { useState, useEffect}  from 'react';
-import { homeIconWhiteBg, homeIconBlackBg, aboutMeIcon, aboutMeIconBlackBg, projectsIcon, projectsIconBlackBg, contactMeIcon, contactMeIconBlackBg } from "../globals/globals"
+import { homeIconWhiteBg, homeIconBlackBg, aboutMeIcon, aboutMeIconBlackBg, projectsIcon, projectsIconBlackBg, contactMeIcon, contactMeIconBlackBg } from "../images/svgImages"
 import SvgHov from "../features/svgHov"
 
 function NavMenu({showHideNav, navOpen}) {
