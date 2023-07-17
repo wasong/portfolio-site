@@ -17,20 +17,26 @@ import PageAllProj from '../pages/PageAllProj';
 
 function AppRouter() {
   return (
+    
     <BrowserRouter  >
+    <div className="min-h-[100dvh] flex flex-col">
       <header>
         <Logo />
         <NavMenu/>
         <HamburgerMenu/>
       </header>
-            <Routes>
-                <Route path="/" element={<PageHome />} />
-                <Route path="/projects" element={<PageAllProj />} />
-                <Route path="/projects/:id" element={<PageIndividualProj/>} />
-                <Route path="*" element={<PageNotFound />} />
-            </Routes> 
+            <div className="flex-1">
+              <Routes>
+                  <Route path="/" element={<PageHome />} />
+                  <Route path="/projects" element={<PageAllProj />} />
+                  <Route path="/projects/:id" element={<PageIndividualProj/>} />
+                  <Route path="*" element={<PageNotFound />} />
+              </Routes> 
+            </div>
         <Footer />
+    </div>
     </BrowserRouter>
+    
   );
 }
 

@@ -22,10 +22,19 @@ const project = portfolio.projects.find(project => project.id === id);
          {project ? (
         <div>
           <h2 className="text-3xl font-bold text-center my-8 md:text-6xl">{project.title}</h2>
-          <Carousel>
-            {project.image.map((image, i) => (<img key={i} src={image.imgUrl} alt={project.title} className="mx-auto"/>))}
+          <Carousel height="550px">
+            
+            {project.image.map((image, i) => (<div className="h-full flex items-center"><img key={i} src={image.imgUrl} alt={project.title} className="mx-auto my-auto"/></div>))}
           </Carousel>
-          <p>{project.description} </p>
+
+          {project.url || project.github ? 
+          <div className="mb-8"> 
+            {project.url ? <a href={project.url} className="projectExternalLinks block ml-8 my-2 p-4 w-30"><p>Live Site</p></a> : null }
+            {project.github? <a href={project.github} className="projectExternalLinks block ml-8 p-4 w-30"><p>Github</p></a> : null}
+          </div>
+          : null}
+
+          <p className="pl-4">{project.description} </p>
           {/* Other project details */}
         <AccordionComponent items={project.accordionItems}/>
         </div>

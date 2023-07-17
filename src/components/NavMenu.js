@@ -1,6 +1,8 @@
 import React, { useState, useEffect}  from 'react';
 import { homeIconWhiteBg, homeIconBlackBg, aboutMeIcon, aboutMeIconBlackBg, projectsIcon, projectsIconBlackBg, contactMeIcon, contactMeIconBlackBg } from "../images/svgImages"
 import SvgHov from "../features/svgHov"
+import { Link } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 
 function NavMenu({showHideNav, navOpen}) {
 // const [isSmallScreen, setIsSmallScreen] = useState(false);
@@ -51,25 +53,25 @@ const [windowWidth, setWindowWidth] = useState(window.innerWidth);
     content = <div className="desktop-nav-menu fixed z-50 right-[2rem] top-[50%] transform -translate-y-1/2">
             <ul className="flex flex-col items-center">
               <li>
-                <a href="/#page-header">
+                <HashLink smooth to="/#page-header">
                   <SvgHov src={homeIconWhiteBg} hoverSrc={homeIconBlackBg} alt="Home Icon" />
-                </a>
+                </HashLink>
               </li>
               
               <li>
-                <a href="/#about">
+                <HashLink smooth to="/#about">
                   <SvgHov src={aboutMeIcon} hoverSrc={aboutMeIconBlackBg} alt="About Me Icon" />
-                </a>
+                </HashLink>
               </li>
               <li>
-                <a href="/#projects">
+                <HashLink smooth to="/#projects">
                   <SvgHov src={projectsIcon} hoverSrc={projectsIconBlackBg} alt="Projects Icon" />
-                </a>
+                </HashLink>
                </li> 
               <li>
-                <a href="/#contact">
+                <HashLink smooth to="/#contact">
                   <SvgHov src={contactMeIcon} hoverSrc={contactMeIconBlackBg} alt="Contact Me Icon" />
-                </a>
+                </HashLink>
               </li> 
             </ul>
         </div>;
