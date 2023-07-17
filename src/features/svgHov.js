@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-function HovImage({ src, alt, hoverSrc }) {
+function SvgHov({ src, alt, hoverSrc }) {
   const [isHovered, setIsHovered] = useState(false);
 
   const handleMouseEnter = () => {
@@ -12,13 +12,13 @@ function HovImage({ src, alt, hoverSrc }) {
   };
 
   return (
-    <img
-      src={isHovered ? hoverSrc : src}
-      alt={alt}
+    <div
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
-    />
+    >
+      {isHovered ? hoverSrc : src}
+    </div>
   );
 }
 
-export default HovImage;
+export default SvgHov;

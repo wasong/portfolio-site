@@ -31,8 +31,9 @@ const homeIconBlackBg = (
   id="homeIcon"
   xmlns="http://www.w3.org/2000/svg" 
   width="75" 
-  height="74" 
-  viewBox="0 0 75 74"
+  height="75" 
+  viewBox="0 0 75 75"
+  className="mx-auto lg:my-4"
   aria-labelledby="homeIconTitle"
 >
   <title id="homeIconTitle">Home</title>
@@ -70,8 +71,10 @@ const aboutMeIconBlackBg = (
   id="aboutMeIcon" 
   xmlns="http://www.w3.org/2000/svg" 
   width="75" 
-  height="74" 
-  viewBox="0 0 75 74">
+  height="75" 
+  viewBox="0 0 75 75"
+  className="mx-auto lg:my-4"
+  > 
   <g id="Ellipse_1" data-name="Ellipse 1" stroke="#000" stroke-width="1">
     <ellipse cx="37.5" cy="37" rx="37.5" ry="37" stroke="none"/>
     <ellipse cx="37.5" cy="37" rx="37" ry="36.5" fill="none"/>
@@ -109,6 +112,7 @@ width="75"
 height="75" 
 viewBox="0 0 75 75"
 aria-labelledby="projectsIconTitle"
+className="mx-auto lg:my-4"
   >
     <title id="projectsIconTitle">Projects</title>
 
@@ -149,6 +153,7 @@ width="75"
 height="75" 
 viewBox="0 0 75 75"
 aria-labelledby="contactMeIconTitle"
+className="mx-auto lg:my-4"
   >
     <title id="contactMeIconTitle">Contact Me</title>
   

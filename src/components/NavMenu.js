@@ -1,5 +1,6 @@
 import React, { useState, useEffect}  from 'react';
-import { homeIconWhiteBg, aboutMeIcon, projectsIcon, contactMeIcon } from "../globals/globals"
+import { homeIconWhiteBg, homeIconBlackBg, aboutMeIcon, aboutMeIconBlackBg, projectsIcon, projectsIconBlackBg, contactMeIcon, contactMeIconBlackBg } from "../globals/globals"
+import SvgHov from "../features/svgHov"
 
 function NavMenu({showHideNav, navOpen}) {
 // const [isSmallScreen, setIsSmallScreen] = useState(false);
@@ -42,15 +43,38 @@ const [windowWidth, setWindowWidth] = useState(window.innerWidth);
     };
   }, []);
 
+
+
   // Define the content based on the window width
   let content;
   if (windowWidth >= 1024) {
     content = <div className="desktop-nav-menu fixed z-50 right-[2rem] top-[50%] transform -translate-y-1/2">
             <ul className="flex flex-col items-center">
-                <li>  <a href="/#page-header"><div>{homeIconWhiteBg}</div></a>  </li>   
+              <li>
+                <a href="/#page-header">
+                  <SvgHov src={homeIconWhiteBg} hoverSrc={homeIconBlackBg} alt="Home Icon" />
+                </a>
+              </li>
+              
+              <li>
+                <a href="/#page-header">
+                  <SvgHov src={aboutMeIcon} hoverSrc={aboutMeIconBlackBg} alt="About Me Icon" />
+                </a>
+              </li>
+              <li>
+                <a href="/#page-header">
+                  <SvgHov src={projectsIcon} hoverSrc={projectsIconBlackBg} alt="Projects Icon" />
+                </a>
+               </li> 
+              <li>
+                <a href="/#page-header">
+                  <SvgHov src={contactMeIcon} hoverSrc={contactMeIconBlackBg} alt="Contact Me Icon" />
+                </a>
+              </li> 
+                {/* <li>  <a href="/#page-header"><div>{homeIconWhiteBg}</div></a>  </li>   
                 <li>  <a href="/#about"><div>{aboutMeIcon}</div></a>  </li>
                 <li>  <a href="/#projects"><div>{projectsIcon}</div></a>  </li>
-                <li>  <a href="/#contact"><div>{contactMeIcon}</div></a>  </li>
+                <li>  <a href="/#contact"><div>{contactMeIcon}</div></a>  </li> */}
             </ul>
         </div>;
   } else {
