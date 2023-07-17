@@ -71,10 +71,6 @@ const [windowWidth, setWindowWidth] = useState(window.innerWidth);
                   <SvgHov src={contactMeIcon} hoverSrc={contactMeIconBlackBg} alt="Contact Me Icon" />
                 </a>
               </li> 
-                {/* <li>  <a href="/#page-header"><div>{homeIconWhiteBg}</div></a>  </li>   
-                <li>  <a href="/#about"><div>{aboutMeIcon}</div></a>  </li>
-                <li>  <a href="/#projects"><div>{projectsIcon}</div></a>  </li>
-                <li>  <a href="/#contact"><div>{contactMeIcon}</div></a>  </li> */}
             </ul>
         </div>;
   } else {
