@@ -12,7 +12,8 @@ function HovImage({ src, alt, hoverSrc }) {
   };
 
   return (
-    <img
+    <img 
+      className= "max-h-[50px]"
       src={isHovered ? hoverSrc : src}
       alt={alt}
       onMouseEnter={handleMouseEnter}

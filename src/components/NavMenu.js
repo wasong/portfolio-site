@@ -57,17 +57,17 @@ const [windowWidth, setWindowWidth] = useState(window.innerWidth);
               </li>
               
               <li>
-                <a href="/#page-header">
+                <a href="/#about">
                   <SvgHov src={aboutMeIcon} hoverSrc={aboutMeIconBlackBg} alt="About Me Icon" />
                 </a>
               </li>
               <li>
-                <a href="/#page-header">
+                <a href="/#projects">
                   <SvgHov src={projectsIcon} hoverSrc={projectsIconBlackBg} alt="Projects Icon" />
                 </a>
                </li> 
               <li>
-                <a href="/#page-header">
+                <a href="/#contact">
                   <SvgHov src={contactMeIcon} hoverSrc={contactMeIconBlackBg} alt="Contact Me Icon" />
                 </a>
               </li> 
