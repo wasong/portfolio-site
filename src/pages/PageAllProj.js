@@ -15,8 +15,9 @@ function PageAllProjects() {
                 <h3 className="text-3xl mb-4">{project.title}</h3>
                 <img src={project.homeImage} alt={project.title} /> 
                 <div className="more-info-button">
-                    <Link to={`/projects/${project.id}`}>More Info</Link>
+                    <Link to={`/projects/${project.id}`} className="text-right block mt-4">More Info</Link>
                 </div>
+                <div className="projectsLine"></div>
             </article>         
       ))}
       </div>

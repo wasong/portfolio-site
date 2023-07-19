@@ -32,7 +32,7 @@ function Projects() {
         <span className="circle">
           <span className="arrow"></span>
         </span>
-        <span className="text"><HashLink smooth to={`/projects/#projects-list`}>
+        <span className="text"><HashLink smooth to={`/projects/#projects-list`} className="p-8">
           See All Projects
         </HashLink></span>
       </button>
