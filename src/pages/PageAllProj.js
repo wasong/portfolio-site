@@ -7,7 +7,7 @@ function PageAllProjects() {
 
 
   return (
-    <section id="projects" className="mx-4 my-4">
+    <section id="projects-list" className="mx-4 my-4">
       <h2 className="text-4xl text-center font-bold my-8 lg:text-6xl">Projects</h2>
       <div className="allProjectsWrapper grid justify-center gap-8">
       {project.map((project) => (

@@ -1,7 +1,7 @@
 import React from 'react';
 import portfolio from '../json/portfolio.json';
 import MoreInfoButton from './MoreInfoButton';
-import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 function Projects() {
  const project= portfolio.projects;
@@ -32,9 +32,9 @@ function Projects() {
         <span className="circle">
           <span className="arrow"></span>
         </span>
-        <span className="text"><Link to={`/projects/`}>
+        <span className="text"><HashLink smooth to={`/projects/#projects-list`}>
           See All Projects
-        </Link></span>
+        </HashLink></span>
       </button>
       </div>
 

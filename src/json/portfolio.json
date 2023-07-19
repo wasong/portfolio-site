@@ -84,7 +84,7 @@
       "id": "project3",
       "title": "Portfolio Site",
       "description": "For this project, I created a portfolio site to showcase the work I have done so far. I used React to build the site and used a mix of Tailwind and SASS for styling. I also used React Router to create a single page application. I created a JSON file to hold information for all the projects and pulled the information from it to dynamically create the project pages.",
-      "homeImage":"",
+      "homeImage":"https://i.imgur.com/A24Yj3L.jpg",
       "image": [
         {
           
