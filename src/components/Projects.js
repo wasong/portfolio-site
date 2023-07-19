@@ -8,7 +8,7 @@ function Projects() {
 
 
   return (
-    <section id="projects" className="mx-4 my-4">
+    <section id="projects" className="h-[100dvh] py-16 flex flex-col justify-center items-center mx-auto">
       <h2 className="text-2xl text-center font-bold">Featured Projects</h2>
       <div className="projects-flex-container flex flex-wrap mx-auto justify-center my-8"> 
       {project.slice(0,2).map((project) => (
@@ -22,7 +22,26 @@ function Projects() {
         </div>
       ))}
       </div>
-      <Link to={`/projects/`} className="block text-center my-16 mx-auto">See All Projects</Link>
+
+      <div class="arrowContainer flex justify-center item-center">
+          <div class="arrow"></div>
+      </div>
+     
+      <div className="btn-wrapper">
+      <button className="btn">
+        <span className="circle">
+          <span className="arrow"></span>
+        </span>
+        <span className="text"><Link to={`/projects/`}>
+          See All Projects
+        </Link></span>
+      </button>
+      </div>
+
+
+        
+     
+
     </section>
   );
 }
