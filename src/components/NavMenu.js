@@ -1,7 +1,6 @@
 import React, { useState, useEffect}  from 'react';
 import { homeIconWhiteBg, homeIconBlackBg, aboutMeIcon, aboutMeIconBlackBg, projectsIcon, projectsIconBlackBg, contactMeIcon, contactMeIconBlackBg } from "../images/svgImages"
 import SvgHov from "../features/svgHov"
-import { Link } from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';
 
 function NavMenu({showHideNav, navOpen}) {
