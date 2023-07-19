@@ -165,4 +165,15 @@ className="mx-auto lg:my-4"
 </svg>
 );
 
-export { homeIconWhiteBg, homeIconBlackBg, aboutMeIcon, aboutMeIconBlackBg, projectsIcon, projectsIconBlackBg, contactMeIcon, contactMeIconBlackBg}
+
+
+export { 
+  homeIconWhiteBg,
+  homeIconBlackBg, 
+  aboutMeIcon, 
+  aboutMeIconBlackBg, 
+  projectsIcon,
+  projectsIconBlackBg, 
+  contactMeIcon, 
+  contactMeIconBlackBg, 
+};
