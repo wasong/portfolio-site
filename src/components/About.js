@@ -4,7 +4,7 @@ function About() {
     
 
 return (
-    <section id="about" className="h-[100dvh] py-16 flex flex-col justify-center mx-auto"> 
+    <section id="about" className="h-[100dvh] flex flex-col justify-center mx-auto"> 
         <article className="about">
             <h2  className= "text-center text-3xl lg:text-5xl my-8 font-bold"> About Me</h2>
             <img  src="https://i.imgur.com/Yhp8tZB.jpg" alt="Brice Chen" className="mx-auto w-[250px]" />
