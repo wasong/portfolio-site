@@ -36,7 +36,7 @@
           "content": "Filmbox was my first React app, and it proved to be an invaluable learning experience. Throughout the project, I delved into various aspects of React development, including making API calls, utilizing React Router, managing state with React Redux, leveraging React hooks (especially useEffect), and storing data locally. One of the highlights was discovering how to dynamically fetch data from APIs, transforming the app with real-time and dynamic content. Working collaboratively with my teammate was a great pleasure. Our strengths complemented each other, enabling us to support one another and keep the development process smooth and enjoyable. The supportive team environment made a significant difference in the overall experience. This movie database project taught me the value of collaboration and teamwork. We capitalized on each other's strengths, allowing us to tackle challenges effectively and efficiently. It was inspiring to witness how our combined efforts led to faster progress and the successful implementation of additional features. Celebrating the completion of the project as a team was truly rewarding. While there is room for improvement in organizing our code, the teamwork has resulted in a well-rounded project that reflects our collective dedication."
         }
       ],
-      "technologies": ["React Native", "JavaScript", "SASS"],
+      "technologies": "React Native, JavaScript, SASS",
       "url": "https://bricechen.ca/movie-database/",
       "class": "project2",
       "github": "https://github.com/chencxw/movie-database"
@@ -75,7 +75,7 @@
           "content": "Coming soon."
         }
       ],
-      "technologies": ["WordPress", "SASS", "JavaScript", "PHP"],
+      "technologies": "WordPress, SASS, JavaScript, PHP",
       "url": "https://healinghaven.bcitwebdeveloper.ca/",
       "github": "https://github.com/your-username/project1",
       "class" : "project1"
@@ -113,7 +113,7 @@
           "content": "This is my first big project and working on it alone. There were many difficulties that I came across as I was working away at this project. First and foremost, I started to dislike my original design and wanted to change it. I ended up changing the design quite a bit and while I am much happier with the final result, it took a lot of time as I couldn't just follow along a pre-made mockup. I also had a hard time with the JSON file. I had to do a lot of research to figure out how structure the actual file itself so I was able to pull the information and display it how I want on the site. Another thing is usage of Tailwind. Using tailwind felt very different and I had to fight the urge to just give up and move back to something more comfortable like SASS to style everything. I used Tailwind to style everything that I can but there were a few places where I couldn't get it to work properly. Despite all this, I felt I was able to learn a lot from this project and I am also happy that I was able to create a site that I can use to showcase my work."
         }
       ],
-      "technologies": ["React", "JavaScript", "HTML", "Tailwind", "SASS", "JSON"],
+      "technologies": "React, JavaScript, HTML, Tailwind, SASS, JSON",
       "url": "https://bricechen.ca",
       "class": "project3",
       "github": "https://github.com/bChen-95/portfolio-site"
