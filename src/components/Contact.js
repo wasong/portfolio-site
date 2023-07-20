@@ -22,20 +22,20 @@ function Contact() {
             hoverSrc={gitHubHov}
           />
         </a>
-    
-        <a href="www.linkedin.com/in/bricechen" target="_blank" rel="noopener noreferrer" className="mx-2 my-4">
-          <HovImage
-            src={linkedinIcon}
-            alt="LinkedIn Icon"
-            hoverSrc={linkedinHov}
-          />
-        </a>
 
         <a href="mailto:brice_chen@hotmail.com" target="_blank" rel="noopener noreferrer" className="mx-2 my-4">
           <HovImage
             src={emailIcon2}
             alt="Email Icon"
             hoverSrc={emailHov}
+          />
+        </a>
+
+         <a href="www.linkedin.com/in/bricechen" target="_blank" rel="noopener noreferrer" className="mx-2 my-4">
+          <HovImage
+            src={linkedinIcon}
+            alt="LinkedIn Icon"
+            hoverSrc={linkedinHov}
           />
         </a>
 

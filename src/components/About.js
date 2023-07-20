@@ -4,7 +4,7 @@ function About() {
     
 
 return (
-    <section id="about" className="min-h-screen flex flex-col mx-auto reveal my-16"> 
+    <section id="about" className="min-h-screen flex flex-col mx-auto reveal my-16 justify-center"> 
         
         <h2  className= "text-center text-3xl lg:text-5xl my-8 font-bold"> About Me</h2>
             <div className="about-flex-container"> 
