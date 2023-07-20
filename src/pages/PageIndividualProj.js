@@ -24,17 +24,17 @@ const project = portfolio.projects.find(project => project.id === id);
           <h2 className="text-3xl font-bold text-center my-8 md:text-6xl">{project.title}</h2>
           <Carousel height="550px" animation="slide" autoPlay="false" navButtonsAlwaysVisible="true">
             
-            {project.image.map((image, i) => (<div className="h-full flex items-center"><img key={i} src={image.imgUrl} alt={project.title} className="mx-auto my-auto"/></div>))}
+            {project.image.map((image, i) => (<div className="h-full flex items-center" key={i}><img src={image.imgUrl} alt={project.title} className="mx-auto my-auto"/></div>))}
           </Carousel>
 
           {project.url || project.github ? 
-          <div className="mb-8"> 
+          <div className="url-wrapper mb-8 flex justify-end"> 
             {project.url ? <a href={project.url} className="projectExternalLinks block mx-8 my-2 p-4 w-30"><p>Live Site</p></a> : null }
             {project.github? <a href={project.github} className="projectExternalLinks block mx-8 my-2 p-4 w-30"><p>Github</p></a> : null}
           </div>
           : null}
 
-          <p className="pl-4">{project.description} </p>
+          <p className="pl-4 mb-4">{project.description} </p>
           {/* Other project details */}
         <AccordionComponent items={project.accordionItems}/>
         </div>

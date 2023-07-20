@@ -13,7 +13,7 @@ function Projects() {
       <div className="projects-flex-container flex flex-wrap mx-auto justify-center my-8"> 
       {project.slice(0,2).map((project) => (
       
-        <div className={project.class + " projects-flex-child mx-2 my-4"} key={project.title}>
+        <div className={project.class + " projects-flex-child mx-[1.5rem] my-4"} key={project.title}>
           <h3 className="font-bold lg:text-xl mb-2">{project.title}</h3>
           <img src={project.homeImage} alt={project.homeImageAlt} className="max-h-[250px]" />
           <ul>

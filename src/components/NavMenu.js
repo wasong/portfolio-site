@@ -82,17 +82,17 @@ const [windowWidth, setWindowWidth] = useState(window.innerWidth);
       <div className="mobile-nav text-center z-[1001] bg-white">
         <ul className="flex flex-col h-full justify-evenly">
           {[
-            { href: "/", icon: homeIconWhiteBg },
-            { href: "/#about", icon: aboutMeIcon },
-            { href: "/#projects", icon: projectsIcon },
-            { href: "/#contact", icon: contactMeIcon },
+            { hash: "/", icon: homeIconWhiteBg },
+            { hash: "/#about", icon: aboutMeIcon },
+            { hash: "/#projects", icon: projectsIcon },
+            { hash: "/#contact", icon: contactMeIcon },
           ].map((item, index) => (
             <li  key={index}>
               <div className="mobileNavLineContainer">
                 <div className="mobileNavLine">
-                <a href={item.href}  onClick={() => {showHideNav(!navOpen)}}>
+                <HashLink smooth to={item.hash}  onClick={() => {showHideNav(!navOpen)}}>
                   {item.icon}
-                </a>
+                </HashLink>
                 </div>
               </div>
               

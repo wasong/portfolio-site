@@ -1,8 +1,9 @@
 .projectsLine 
 {
     background-color: black;
-    width: 550px;
+    max-width: 550px;
     height: 2px;
+    margin-top: 5rem;
 }
 .projectsLine:last-child 
 {
