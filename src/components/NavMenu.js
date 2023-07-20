@@ -90,7 +90,7 @@ const [windowWidth, setWindowWidth] = useState(window.innerWidth);
             <li  key={index}>
               <div className="mobileNavLineContainer">
                 <div className="mobileNavLine">
-                <HashLink smooth to={item.hash}  onClick={() => {showHideNav(!navOpen)}}>
+                <HashLink  to={item.hash}  onClick={() => {showHideNav(!navOpen)}}>
                   {item.icon}
                 </HashLink>
                 </div>
