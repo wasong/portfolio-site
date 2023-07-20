@@ -23,8 +23,8 @@ function Projects() {
       ))}
       </div>
 
-      <div class="arrowContainer flex justify-center item-center">
-          <div class="arrow"></div>
+      <div className="arrowContainer flex justify-center item-center">
+          <div className="arrow"></div>
       </div>
      
       <div className="btn-wrapper">
