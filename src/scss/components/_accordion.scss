@@ -1,3 +1,17 @@
 .css-1elwnq4-MuiPaper-root-MuiAccordion-root.Mui-expanded{
     margin: 0 !important;
 }
+
+.MuiPaper-root{
+   .MuiAccordionDetails-root a{
+    width:94px;
+    border-radius: 10px;
+    padding: 0.5rem;
+    float: right;
+   }
+   .MuiAccordionDetails-root a:hover{
+    background: black;
+    color: white;
+    text-decoration: none;
+   }
+}

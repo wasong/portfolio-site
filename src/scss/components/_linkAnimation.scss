@@ -1,20 +1,21 @@
 .projectExternalLinks {
   position: relative;
-  width: 150px;
-  height: 100px;
+  width: 125px;
+  height: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
   background: rgba(0, 0, 0, 0.5);
   border-radius: 20px;
+  animation: 0.3s;
   overflow: hidden;
 }
 
 .projectExternalLinks::before {
   content: '';
   position: absolute;
-  width: 100px;
-  height: 180%;
+  width: 60px;
+  height: 135px;
   background: linear-gradient(#00ccff, #f123a5);
   animation: animate 4s linear infinite;
   opacity: 0;
@@ -35,9 +36,14 @@
 }
 
 .projectExternalLinks:hover::before {
-  
   opacity: 1;
 }
+  
+.projectExternalLinks:hover{
+  font-size: 1.2rem;
+  font-weight: 700;
+  }
+
 
 @keyframes animate {
   0% {
