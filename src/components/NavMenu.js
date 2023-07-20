@@ -82,7 +82,7 @@ const [windowWidth, setWindowWidth] = useState(window.innerWidth);
       <div className="mobile-nav text-center z-[1001] bg-white">
         <ul className="flex flex-col h-full justify-evenly">
           {[
-            { hash: "/", icon: homeIconWhiteBg },
+            { hash: "/#page-header", icon: homeIconWhiteBg },
             { hash: "/#about", icon: aboutMeIcon },
             { hash: "/#projects", icon: projectsIcon },
             { hash: "/#contact", icon: contactMeIcon },

@@ -35,7 +35,8 @@ const project = portfolio.projects.find(project => project.id === id);
           : null}
 
           <p className="pl-4 mb-4">{project.description} </p>
-          {/* Other project details */}
+          <h3 className="pl-4 font-bold">Tools Used</h3>
+          <p className="pl-4 mb-4">{project.technologies}</p>
         <AccordionComponent items={project.accordionItems}/>
         </div>
       ) : (
