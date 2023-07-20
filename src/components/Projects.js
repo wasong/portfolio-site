@@ -8,7 +8,7 @@ function Projects() {
 
 
   return (
-    <section id="projects" className="h-[100dvh] py-16 flex flex-col justify-center items-center mx-auto">
+    <section id="projects" className="min-h-screen flex flex-col items-center mx-auto my-16 reveal">
       <h2 className="text-3xl text-center font-bold lg:text-5xl">Featured Projects</h2>
       <div className="projects-flex-container flex flex-wrap mx-auto justify-center my-8"> 
       {project.slice(0,2).map((project) => (

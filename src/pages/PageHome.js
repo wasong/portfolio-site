@@ -2,6 +2,7 @@ import React, {useEffect, useState} from "react";
 import Projects from "../components/Projects";
 import About from "../components/About";
 import Contact from "../components/Contact";
+import ScrollReveal from "../components/ScrollReveal";
 
 function PageHome () {
     
@@ -9,7 +10,7 @@ function PageHome () {
 
   useEffect(() => {
     const handleScroll = () => {
-      const scrollPosition = window.pageYOffset;
+      const scrollPosition = window.scrollY;
 
       if (scrollPosition > 100) { // Adjust the scroll position as needed
         setIsVisible(false);
@@ -17,16 +18,22 @@ function PageHome () {
         setIsVisible(true);
       }
     };
-
     window.addEventListener('scroll', handleScroll);
 
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
+
+  useEffect(() => {
+  
+    ScrollReveal();
+  }, []);
+
+
       return (
             <main>
-              <section className= "welcome h-[100dvh] max-w-[320px] flex flex-col justify-center items-center mx-auto lg:max-w-[544px]">
+              <section className= "welcome min-h-screen max-w-[320px] flex flex-col justify-center mx-auto lg:max-w-[544px]">
                 <h1 className="mx-auto text-3xl lg:text-[4rem] lg:mb-4" >Hey,</h1>
                   <div className="typing-container" >
                     <h2 className="typed-text text-center text-3xl lg:text-[3rem]">

@@ -11,8 +11,9 @@ import emailIcon2 from '../images/emailIcon2.png';
 
 function Contact() {
     return (
-        <section id="contact">
-         <div className="socials-icon-container w-full inline-flex justify-center">
+        <section id="contact" className="my-16">
+          <h2 className="text-3xl text-center font-bold lg:text-5xl reveal">Connect With Me</h2>
+         <div className="socials-icon-container w-full inline-flex justify-center reveal">
 
         <a href="https://github.com/bChen-95"  target="_blank" rel="noopener noreferrer" className="mx-2 my-4">
           <HovImage
