@@ -1,0 +1,15 @@
+.more-info-button{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 85px;
+    height: 30px;
+    margin-top: 1rem;
+    transition: 0.5s;
+    float: right;
+}
+
+.more-info-button:hover{
+    background: black;
+    color: white;
+    transform: scale(1.1)
+}

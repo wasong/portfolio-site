@@ -3,9 +3,8 @@ import gitHubIcon from '../images/gitHubIcon.png';
 import gitHubHov from '../images/gitHubHov.png';
 import linkedinIcon from '../images/linkedinIcon.png';
 import linkedinHov from '../images/linkedinHov.png';
-import emailIcon from '../images/emailIcon.png';
 import emailHov from '../images/emailHov.png';
-
+import emailIcon2 from '../images/emailIcon2.png';
 
 
 
@@ -33,7 +32,7 @@ function Contact() {
 
         <a href="mailto:brice_chen@hotmail.com" target="_blank" rel="noopener noreferrer" className="mx-2 my-4">
           <HovImage
-            src={emailIcon}
+            src={emailIcon2}
             alt="Email Icon"
             hoverSrc={emailHov}
           />
