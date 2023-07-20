@@ -22,7 +22,7 @@ const project = portfolio.projects.find(project => project.id === id);
          {project ? (
         <div>
           <h2 className="text-3xl font-bold text-center my-8 md:text-6xl">{project.title}</h2>
-          <Carousel height="550px">
+          <Carousel height="550px" animation="slide" autoPlay="false" navButtonsAlwaysVisible="true">
             
             {project.image.map((image, i) => (<div className="h-full flex items-center"><img key={i} src={image.imgUrl} alt={project.title} className="mx-auto my-auto"/></div>))}
           </Carousel>

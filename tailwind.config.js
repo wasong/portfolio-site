@@ -11,7 +11,7 @@ module.exports = {
         },
       },
       animation: {
-        'delayed-fade-in': 'delayed-fade-in 3s 1s forwards',
+        'delayed-fade-in': 'delayed-fade-in 2s 1s forwards',
       },  
     },
   },
