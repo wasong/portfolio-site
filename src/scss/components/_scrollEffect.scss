@@ -1,14 +1,14 @@
 main {
     overflow: hidden;    
 }
-.reveal:nth-child(2n+1){
+.reveal:nth-child(odd){
     position:relative;
     transform: translateX(70px);
     opacity: 0;
     transition: transform 1.5s ease, opacity 1.5s ease;
     box-sizing: border-box;
-}  
-.reveal:nth-child(2n){
+}     
+.reveal:nth-child(even){
     position:relative;
     transform: translateX(-70px);
     opacity: 0;
