@@ -3,16 +3,16 @@ main {
 }
 .reveal:nth-child(2n+1){
     position:relative;
-    transform: translateX(150px);
+    transform: translateX(70px);
     opacity: 0;
-    transition: all 1.5s ease;
+    transition: transform 1.5s ease, opacity 1.5s ease;
     box-sizing: border-box;
 }  
-.reveal:nth-child(2n+2){
+.reveal:nth-child(2n){
     position:relative;
-    transform: translateX(-150px);
+    transform: translateX(-70px);
     opacity: 0;
-    transition: all 1.5s ease;
+    transition: transform 1.5s ease, opacity 1.5s ease;
     box-sizing: border-box;
 }   
 .reveal.active{
