@@ -26,8 +26,10 @@ function PageHome () {
   }, []);
 
   useEffect(() => {
-  
-    ScrollReveal();
+      window.addEventListener('scroll', ScrollReveal);
+    return () => {
+      window.removeEventListener('scroll', ScrollReveal);
+    }
   }, []);
 
 
