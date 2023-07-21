@@ -34,7 +34,7 @@ const homeIconBlackBg = (
   className="mx-auto lg:my-4"
   aria-labelledby="homeIconTitle"
 >
-  <title id="homeIconTitleHov">Home</title>
+  <title id="homeIconTitleHov">Home hov</title>
   <g id="Ellipse_4" data-name="Ellipse 4" stroke="#000" strokeWidth="1">
     <ellipse cx="37.5" cy="37" rx="37.5" ry="37" stroke="none"/>
     <ellipse cx="37.5" cy="37" rx="37" ry="36.5" fill="none"/>
@@ -74,7 +74,7 @@ const aboutMeIconBlackBg = (
   className="mx-auto lg:my-4"
   aria-labelledby="aboutMeTitleHov"
   >
-    <title id="aboutMeTitleHov">About Me</title>
+    <title id="aboutMeTitleHov">About Me hov</title>
   <g id="Ellipse_1" data-name="Ellipse 1" stroke="#000" strokeWidth="1">
     <ellipse cx="37.5" cy="37" rx="37.5" ry="37" stroke="none"/>
     <ellipse cx="37.5" cy="37" rx="37" ry="36.5" fill="none"/>
@@ -114,7 +114,7 @@ viewBox="0 0 75 75"
 aria-labelledby="projectsIconTitleHov"
 className="mx-auto lg:my-4"
   >
-    <title id="projectsIconTitleHov">Projects</title>
+    <title id="projectsIconTitleHov">Projects hov</title>
 
   <g id="Ellipse_2" data-name="Ellipse 2" stroke="#000" strokeWidth="1">
     <circle cx="37.5" cy="37.5" r="37.5" stroke="none"/>
@@ -155,7 +155,7 @@ viewBox="0 0 75 75"
 aria-labelledby="contactMeIconTitleHov"
 className="mx-auto lg:my-4"
   >
-    <title id="contactMeIconTitleHov">Contact Me</title>
+    <title id="contactMeIconTitleHov">Contact Me hov</title>
   
   <g id="Group_1" data-name="Group 1" transform="translate(-1544 -662)">
     <g id="Ellipse_3" data-name="Ellipse 3" transform="translate(1544 662)" stroke="#000" strokeWidth="1">
