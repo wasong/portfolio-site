@@ -4,20 +4,20 @@
       "id": "movie-database",
       "title": "Movie Database",
       "description": "This is a movie database app that allows users explore current movies and view their details. It was built using React Native and we utilized TMDB's API to dynamically fetch all the data. Users are able to search for movies, filter movies, and have a personalized list of favourite movies.",
-      "homeImage":"https://i.imgur.com/YcTsGNf.jpg",
+      "homeImage":"https://i.imgur.com/EIUGiQV.jpg",
       "homeImageAlt": "Movie Database Home Page",
       "image": [
         {
           "title": "Mobile View",
-          "imgUrl": "https://i.imgur.com/z52VVix.jpg"
+          "imgUrl": "https://i.imgur.com/RzUfMZC.jpg"
         },
         {
           "title": "desktopTop",
-          "imgUrl": "https://i.imgur.com/2UKLQuD.png"
+          "imgUrl": "https://i.imgur.com/APBbVMQ.jpg"
         },
         {
          "title": "desktopBot",
-          "imgUrl": "https://i.imgur.com/8sZZl6R.png"
+          "imgUrl": "https://i.imgur.com/zGF83QT.jpg"
         }
       ],
       "accordionItems": [
@@ -45,20 +45,20 @@
       "id": "capstone-project",
       "title": "Capstone Project",
       "description":"Coming soon.",
-      "homeImage":"https://i.imgur.com/DA3NdqD.jpg",
+      "homeImage":"https://i.imgur.com/xG6p6r0.jpg",
       "homeImageAlt": "coming soon",
       "image": [
         {
           "title": "Mobile View",
-          "imgUrl": "https://i.imgur.com/DA3NdqD.jpg"
+          "imgUrl": "https://i.imgur.com/xG6p6r0.jpg"
         },
         {
           "title": "desktopTop",
-          "imgUrl": "https://i.imgur.com/DA3NdqD.jpg"
+          "imgUrl": "https://i.imgur.com/xG6p6r0.jpg"
         },
         {
          "title": "desktopBot",
-          "imgUrl": "https://i.imgur.com/DA3NdqD.jpg"
+          "imgUrl": "https://i.imgur.com/xG6p6r0.jpg"
         }
       ],
       "accordionItems": [
@@ -77,26 +77,26 @@
       ],
       "technologies": "WordPress, SASS, JavaScript, PHP",
       "url": "https://healinghaven.bcitwebdeveloper.ca/",
-      "github": "https://github.com/your-username/project1",
+      "github": "https://github.com/htpwebdesign/healing-haven",
       "class" : "project1"
     },
     {
       "id": "project3",
       "title": "Portfolio Site",
       "description": "For this project, I created a portfolio site to showcase the work I have done so far. I used React to build the site and used a mix of Tailwind and SASS for styling. I also used React Router to create a single page application. I created a JSON file to hold information for all the projects and pulled the information from it to dynamically create the project pages.",
-      "homeImage":"https://i.imgur.com/A24Yj3L.jpg",
+      "homeImage":"https://i.imgur.com/wrFyrTC.jpg",
       "image": [
         {
           
-          "imgUrl": "https://i.imgur.com/Vq3VfPU.png"
+          "imgUrl": "https://i.imgur.com/oUz9zqX.png"
         },
         {
           
-          "imgUrl": "https://i.imgur.com/2LZm038.png"
+          "imgUrl": "https://i.imgur.com/zmk6Wew.png"
         },
         {
          
-          "imgUrl": "https://i.imgur.com/lFBba7M.png"
+          "imgUrl": "https://i.imgur.com/66v4Yen.jpg"
         }
       ],
       "accordionItems": [
