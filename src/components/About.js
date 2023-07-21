@@ -10,7 +10,7 @@ return (
             <div className="about-flex-container"> 
                     <img  
                     src={aboutImg}
-                    srcset=" " 
+                    srcSet=" " 
                     alt="Brice Chen" 
                     className="mx-auto lg:mr-[3rem] w-[250px] " />
                 
