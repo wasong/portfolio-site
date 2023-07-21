@@ -1,5 +1,4 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-// import { APP_FOLDER_NAME } from "../globals/globals";
 
 
 //components

@@ -12,7 +12,7 @@ function PageHome () {
     const handleScroll = () => {
       const scrollPosition = window.scrollY;
 
-      if (scrollPosition > 100) { // Adjust the scroll position as needed
+      if (scrollPosition > 100) { 
         setIsVisible(false);
       } else {
         setIsVisible(true);
