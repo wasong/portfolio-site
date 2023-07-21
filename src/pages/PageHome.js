@@ -49,7 +49,7 @@ function PageHome () {
                   <div className={`fade-out ${isVisible ? '' : 'hidden'}`}>
                   <div className="arrowContainer h-16 flex justify-center items-center flex-col ">
                       <div className="arr down">
-                        <a href="/#about"><div></div></a>
+                        <a href="/#about" aria-label="Go down to about section"><div></div></a>
                       </div>
                   </div>
                   </div>
