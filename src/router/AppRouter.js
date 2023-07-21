@@ -20,7 +20,7 @@ function AppRouter() {
     
     <BrowserRouter  >
     <div className="min-h-[100dvh] flex flex-col">
-      <header>
+      <header id="page-header">
         <Logo />
         <NavMenu/>
         <HamburgerMenu/>
