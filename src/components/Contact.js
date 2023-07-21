@@ -31,7 +31,7 @@ function Contact() {
           />
         </a>
 
-         <a href="www.linkedin.com/in/bricechen" target="_blank" rel="noopener noreferrer" className="mx-2 my-4">
+         <a href="https://linkedin.com/in/bricechen" target="_blank" rel="noopener noreferrer" className="mx-2 my-4">
           <HovImage
             src={linkedinIcon}
             alt="LinkedIn Icon"
