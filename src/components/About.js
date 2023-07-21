@@ -1,4 +1,4 @@
-import aboutImg from '../images/portfolio-about.jpg';
+import aboutImg from '../images/portfolio-about.webp';
 
 function About() {
     
