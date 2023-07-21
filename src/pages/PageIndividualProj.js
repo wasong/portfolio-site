@@ -29,8 +29,8 @@ const project = portfolio.projects.find(project => project.id === id);
 
           {project.url || project.github ? 
           <div className="url-wrapper mb-8 flex justify-end"> 
-            {project.url ? <a href={project.url} target="_blank" rel="noopener noreferrer" className="projectExternalLinks block mx-8 my-2 p-4 w-30"><p>Live Site</p></a> : null }
-            {project.github? <a href={project.github} target="_blank" rel="noopener noreferrer"  className="projectExternalLinks block mx-8 my-2 p-4 w-30"><p>Github</p></a> : null}
+            {project.url ? <a href={project.url} target="_blank" rel="noopener noreferrer" className="projectExternalLinks block mx-8 my-2 p-4 w-30"><p className="text-center text-sm md:text-base">Live Site</p></a> : null }
+            {project.github? <a href={project.github} target="_blank" rel="noopener noreferrer"  className="projectExternalLinks block mx-8 my-2 p-4 w-30 "><p className="text-sm md:text-base">Github</p></a> : null}
           </div>
           : null}
 
