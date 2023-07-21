@@ -10,7 +10,6 @@ const [navOpen, setNavOpen] = useState(false);
   
 return (
   <div className={navOpen ? 'show' : undefined}>
-    <div >  
       <button
         className="hamburger-btn fixed bottom-2 right-0 z-[9999]"
         onMouseDown={(e) => {
@@ -28,7 +27,6 @@ return (
         <span className="sr-only">Menu</span>
       </button>
       <NavMenu showHideNav={showHideNav} navOpen={navOpen} />
-    </div>
   </div>
 );
 }
