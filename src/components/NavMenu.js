@@ -4,29 +4,6 @@ import SvgHov from "../features/svgHov"
 import { HashLink } from 'react-router-hash-link';
 
 function NavMenu({showHideNav, navOpen}) {
-// const [isSmallScreen, setIsSmallScreen] = useState(false);
-
-  // useEffect(() => {
-  //   const mediaQuery = window.matchMedia('(max-width: 768px)'); // Define your media query here
-
-    // const handleResize = (event) => {
-    //   // setIsSmallScreen(event.matches);
-    //   if (event.matches) {
-    //     showHideNav(false)
-    //   }
-    // };
-
-    // Initial check for the media query
-  //   handleResize(mediaQuery);
-
-  //   // Add listener for changes in the media query
-  //   mediaQuery.addEventListener('change', handleResize);
-
-  //   // Clean up the listener on component unmount
-  //   return () => {
-  //     mediaQuery.removeEventListener('change', handleResize);
-  //   };
-  // }, [showHideNav]);
 
 const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
@@ -43,8 +20,6 @@ const [windowWidth, setWindowWidth] = useState(window.innerWidth);
       window.removeEventListener('resize', handleResize);
     };
   }, []);
-
-
 
   // Define the content based on the window width
   let content;
