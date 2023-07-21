@@ -9,7 +9,7 @@ const [navOpen, setNavOpen] = useState(false);
   }
   
 return (
-  <header className={navOpen ? 'show' : undefined} id="page-header">
+  <div className={navOpen ? 'show' : undefined}>
     <div >  
       <button
         className="hamburger-btn fixed bottom-2 right-0 z-[9999]"
@@ -29,7 +29,7 @@ return (
       </button>
       <NavMenu showHideNav={showHideNav} navOpen={navOpen} />
     </div>
-  </header>
+  </div>
 );
 }
 
