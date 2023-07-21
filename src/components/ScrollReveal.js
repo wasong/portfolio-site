@@ -1,6 +1,4 @@
 function ScrollReveal(){
-    console.log('ScrollReveal');
-    // window.addEventListener('scroll', ScrollReveal);
     let reveals = document.querySelectorAll('.reveal');
 
     for(let i = 0; i < reveals.length; i++){
