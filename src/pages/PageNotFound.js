@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom';
 import { useEffect } from "react";
-// import { appTitle } from "../globals/globals";
 
 
 function PageNotFound() {
@@ -11,11 +10,10 @@ function PageNotFound() {
 
     return(
       <main>
-        <section className="page-not-found">
-          <h2>404</h2>
-          <h3>Page not found.</h3>
-          <p>The page you were looking for does not exist.</p>
-          <p><Link to="/">Back to home</Link></p>
+        <section className="page-not-found text-center min-h-screen flex flex-col justify-center ">
+          <h2 className="text-4xl mb-8">404 Page not found.</h2>
+          <p className="text-2xl mb-8">Not sure what you're looking for.. but it ain't here.</p>
+          <p className="backToHome"><Link to="/">Back to home</Link></p>
         </section>
       </main>
     );
