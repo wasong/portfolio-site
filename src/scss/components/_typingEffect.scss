@@ -54,7 +54,13 @@
 
 @media screen and (min-width: 1024px) {
     .typing-container{
-        width: 544px;
+    width: 544px;
+    h2{
+        font-size: 3rem;
+        span{
+            font-size: 6rem;
+        }
+    }
     }
     svg {
     width: 50px;
