@@ -38,8 +38,8 @@ function PageHome () {
               <section className= "welcome min-h-screen max-w-[320px] flex flex-col justify-center mx-auto lg:max-w-[544px]">
                 <h1 className="mx-auto text-3xl lg:text-[4rem] lg:mb-4" >Hey,</h1>
                   <div className="typing-container" >
-                    <h2 className="typed-text text-center text-3xl lg:text-[3rem]">
-                        My name is <span className="font-bold text-[3rem] lg:text-[6rem]">Brice</span>.
+                    <h2 className="typed-text text-center text-xl lg:text-[3rem]">
+                        My name is <span className="font-bold text-[2rem] lg:text-[6rem]">Brice</span>.
                      </h2>
                   </div>
                   <p className="animate-delayed-fade-in opacity-0 text-center">Welcome to my page</p>
@@ -54,8 +54,11 @@ function PageHome () {
                   </div>
                   </div>
                 </div>
-              <About/>
-                <Projects/> 
+                 <div className="reveal-wrapper"><About/></div>
+              
+               <div className="reveal-wrapper"><Projects/> </div>
+                
+
                 <Contact/>
             </main> 
         
