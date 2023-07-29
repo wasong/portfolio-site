@@ -1,19 +1,6 @@
 main {
     overflow: hidden;    
 }
-
-.reveal-wrapper{
-    display: flex;
-    flex-direction: column;
-    overflow:hidden;
-}
-// .reveal {
-//     position:relative;
-//     transform: translateX(70px);
-//     opacity: 0;
-//     transition: transform 1.5s ease, opacity 1.5s ease;
-//     box-sizing: border-box;
-// }     
 .reveal:nth-child(odd){
     position:relative;
     transform: translateX(70px);
