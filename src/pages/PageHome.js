@@ -45,21 +45,18 @@ function PageHome () {
                   <p className="animate-delayed-fade-in opacity-0 text-center">Welcome to my page</p>
               </section>
 
-                <div className="downArrow">
-                  <div className={`fade-out ${isVisible ? '' : 'hidden'}`}>
-                  <div className="arrowContainer h-16 flex justify-center items-center flex-col ">
-                      <div className="arr down">
-                        <a href="/#about" aria-label="Go down to about section"><div></div></a>
-                      </div>
-                  </div>
-                  </div>
+              <div className="downArrow">
+                <div className={`fade-out ${isVisible ? '' : 'hidden'}`}>
+                <div className="arrowContainer h-16 flex justify-center items-center flex-col ">
+                    <div className="arr down">
+                      <a href="/#about" aria-label="Go down to about section"><div></div></a>
+                    </div>
                 </div>
-                 <div className="reveal-wrapper"><About/></div>
-              
-               <div className="reveal-wrapper"><Projects/> </div>
-                
-
-                <Contact/>
+                </div>
+              </div>
+              <About/>              
+              <Projects/>
+              <Contact/>
             </main> 
         
     )
