@@ -44,7 +44,7 @@
     {
       "id": "capstone-project",
       "title": "Capstone Project",
-      "description":"Coming soon.",
+      "description":"A comprehensive multi-page e-commerce website using Wordpress and WooCommerce for Healing Haven Massage clinic. The website provides clients with valuable information about the clinic and its skilled therapists. Clients can conveniently book appointments online and access a collection of the latest blog posts, staying updated on relevant topics.",
       "homeImage":"https://i.imgur.com/xG6p6r0.jpg",
       "homeImageAlt": "coming soon",
       "image": [
@@ -64,15 +64,15 @@
       "accordionItems": [
         {
           "title": "Planning",
-          "content": "Coming soon."
+          "content": "This project was developed in a team of 4 as the Capstone project for our Front-End Web Developer program at BCIT. We were tasked with creating a website for a client, Healing Haven, a local business that offers a variety of services, including massage therapy. The client requested a website that would allow them to showcase their services and provide information about their staff. Additionally, they wanted to offer online booking and e-commerce capabilities. Our primary goal was to create a user-friendly website that would allow users to easily navigate the site and access the information they need. We also aimed to create a seamless booking and shopping experience, ensuring that users can easily book appointments and purchase products."
         },
         {
           "title": "Highlights",
-          "content": "Coming soon."
+          "content": ""
         },
         {
           "title": "Reflection",
-          "content": "Coming soon."
+          "content": "Throughout this project, I had the chance to enhance my skills in custom post types, taxonomies, Advanced Custom Fields, WooCommerce plugins, migrating WordPress sites, WordPress/WooCommerce hooks, and integrating Google Maps' API with a customized map. Working with WordPress as a content management system offered valuable benefits, allowing clients to control their website content while enabling us to customize the backend for a better user experience. A crucial takeaway he importance of adaptability and problem-solving skills. Throughout the development process, we encountered various challenges and unexpected issues that required quick thinking and innovative solutions. This experience taught me how to remain flexible in the face of obstacles and to approach problem-solving with a proactive mindset. Embracing challenges as opportunities for growth, I learned to explore alternative approaches and implement creative solutions, ultimately enhancing my ability to tackle complex tasks in future projects."
         }
       ],
       "technologies": "WordPress, SASS, JavaScript, PHP",
