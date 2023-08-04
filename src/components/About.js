@@ -12,7 +12,7 @@ return (
                     src={aboutImg}
                     srcSet=" " 
                     alt="Brice Chen" 
-                    className="mx-auto lg:mr-[3rem] w-[250px] " />
+                    className="mx-auto lg:mr-[3rem] w-[250px] rounded-lg " />
                 
                 <div className="aboutText  lg:mr-[5rem]">
                     <p className= "my-4 mx-auto max-w-[500px] lg:text-lg"> I am front-end web developer with a background in nursing. I enjoy playing basketball, riding motorcycles, and hiking. I also like traveling but my wallet is holding me back. </p>
