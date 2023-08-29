@@ -11,7 +11,7 @@ const [navOpen, setNavOpen] = useState(false);
 return (
   <div className={navOpen ? 'show' : undefined}>
       <button
-        className="hamburger-btn fixed bottom-2 right-0 z-[9999]"
+        className="hamburger-btn fixed bottom-2 right-2 z-[9999]"
         onMouseDown={(e) => {
           e.preventDefault();
         }}
