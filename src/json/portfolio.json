@@ -49,15 +49,19 @@
       "homeImageAlt": "coming soon",
       "image": [
         {
-          "title": "Services Mobile View",
-          "imgUrl": "https://i.imgur.com/rus8gvq.png"
+          "title": "Home Desktop View",
+          "imgUrl": "https://i.imgur.com/J30fy2b.png"
         },
         {
-          "title": "desktopServices",
+          "title": "Services Mobile View",
+          "imgUrl": "https://i.imgur.com/nnUDefL.png"
+        },
+        {
+          "title": "Services Desktop View",
           "imgUrl": "https://i.imgur.com/8ZDdkDp.png"
         },
         {
-         "title": "desktopContact",
+         "title": "Contact Desktop View",
           "imgUrl": "https://i.imgur.com/5J1QdBp.png"
         }
       ],
@@ -68,7 +72,7 @@
         },
         {
           "title": "Highlights",
-          "content": "Some highlights for this project is succesfully integrating the Google Map API and customizing the colours. "
+          "content": "Some highlights for this project is succesfully integrating the Google Map API and customizing the colours. We also have a bookings page where clients can book the service of their choice with their preferred massage therapist with options of paying online or in person. This was created through the use of WooCommerce's booking plugin and utilizing CSS to customize it to our liking."
         },
         {
           "title": "Reflection",
