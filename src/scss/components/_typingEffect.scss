@@ -21,8 +21,7 @@
 }
 .typing-container {
     text-align: center;
-    // width: 240px;
-    width: max-content !important;
+    width: max-content;
     margin: 1rem auto;
     -webkit-text-size-adjust: 100%;
 
@@ -40,7 +39,6 @@
 
 @media screen and (min-width:450px) {
     .typing-container{
-    // width: 360px;
     h2{
         font-size: 1.875rem;
         span{
@@ -56,7 +54,6 @@
 
 @media screen and (min-width: 1024px) {
     .typing-container{
-    // width: 635px;
     h2{
         font-size: 3rem;
         span{
