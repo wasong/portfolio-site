@@ -21,8 +21,8 @@
 }
 .typing-container {
     text-align: center;
-    // width: 210px;
-    width: 240px;
+    // width: 240px;
+    width: max-content !important;
     margin: 1rem auto;
     -webkit-text-size-adjust: 100%;
 
@@ -34,13 +34,13 @@
     overflow: hidden;
     white-space: nowrap;
     width: 0;
-    margin-right: 5px;
+    margin-right: 0rem;
     line-height: 160%;
 }
 
 @media screen and (min-width:450px) {
     .typing-container{
-    width: 360px;
+    // width: 360px;
     h2{
         font-size: 1.875rem;
         span{
@@ -56,7 +56,7 @@
 
 @media screen and (min-width: 1024px) {
     .typing-container{
-    width: 635px;
+    // width: 635px;
     h2{
         font-size: 3rem;
         span{
